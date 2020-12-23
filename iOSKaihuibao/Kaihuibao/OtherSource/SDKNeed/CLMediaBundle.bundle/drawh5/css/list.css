@@ -1,0 +1,22 @@
+#fileList .btn-bottom {
+    height: 80px;
+}
+
+.file-btn.delete {
+    /*margin-top: 10px;*/
+}
+
+.file-btn{
+    width: 130px;
+    text-align: center;
+}
+.mui-bar-tab{
+    height: 40px;
+    background-color: #fff;
+}
+.mui-bar-tab .mui-tab-label{
+    color: #999;
+}
+.mui-bar-tab .mui-tab-item{
+    height: 40px;
+}

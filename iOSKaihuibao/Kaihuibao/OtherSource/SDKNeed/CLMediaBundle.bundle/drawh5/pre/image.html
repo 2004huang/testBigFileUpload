@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>共享图片</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./css/doc.css">
+    <link rel="stylesheet" href="./css/doc-list.css">
+    <link rel="stylesheet" href="./css/image.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="fs-container doc">
+        <div class="share-box">
+            <div class="literally" id="literally">
+            </div>
+            <div class="no-draw"></div>
+            <div id="image-box">
+                <img class="showImg" alt="">
+                <!-- <canvas id="jpegCanvas" width="0" height="0"></canvas> -->
+            </div>
+        </div>
+        <div class="pdf-tool">
+            <button id='chooseFile' onClick="chooseFile()" class='button' />
+            <button id="prev" onclick="goPrevious()" class="button peer-hidden"></button>
+            <span class="page-box">
+                <span id="page_prve">
+                    <input type="search" id="page_num" class="page-num">
+                </span>
+                &nbsp;/&nbsp;
+                <span id="page_count"></span>
+            </span>
+            <button id="next" onclick="goNext()" class="button peer-hidden"></button>
+            <button id="zoomin" onclick="zoomin()" class="button"></button>
+            <button id="zoomout" onclick="zoomout()" class="button"></button>
+            <span id="scaleSelectContainer" class="dropdownToolbarButton ">
+                <a href="#topPopover" class="mui-navigate-right">适应页面</a>
+                <!-- <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="zoom">
+                <option id="pageActualOption" title="" value="page-actual">实际大小
+                </option>
+                <option id="pageFitOption" title="" value="page-fit">适应页面</option>
+                <option id="pageWidthOption" title="" value="page-width">适应宽度
+                </option>
+                <option id="pageHeightOption" title="" value="page-height">适应高度
+                </option>
+                <option title="" value="0.5">50%
+                </option>
+                <option title="" value="0.75">75%
+                </option>
+                <option title="" value="1">100%
+                </option>
+                <option title="" value="1.25">
+                    125%</option>
+                <option title="" value="1.5">
+                    150%</option>
+                <option title="" value="2">200%
+                </option>
+                <option title="" value="3">300%
+                </option>
+                <option title="" value="4">400%
+                </option>
+            </select> -->
+            </span>
+        </div>
+
+    </div>
+    <div class="toolset hide" id="toolset">
+        <!-- <span class='toolLabel'>Actions:</span> -->
+        <a href="javascript:void(0);" class='tool' id="tools-icon"></a>
+        <a href="javascript:void(0);" class='tool active' id="tool-pencil"></a>
+        <a href="javascript:void(0);" class='tool' id="tool-text"></a>
+        <span class='tool' id='tool-color'>
+            <div class="set-wid">
+                <div class='color-poupe'>
+                    <!-- <i class='color-000000' color='#000000'></i> -->
+                    <i class='color-0000FF' color='#0000FF'></i>
+                    <i class='color-00ff00' color='#00ff00'></i>
+                    <i class='color-0a70e3' color='#0a70e3'></i>
+                    <i class='color-0ae3e0' color='#0ae3e0'></i>
+                    <!-- <i class='color-959595' color='#959595'></i> -->
+                    <i class='color-a30ae3' color='#a30ae3'></i>
+                    <i class='color-ff1a1a' color='#ff1a1a'></i>
+                    <i class='color-ff6600' color='#ff6600'></i>
+                    <i class='color-ed5e54' color='#ed5e54'></i>
+                    <i class='color-ed008d' color='#ed008d'></i>
+                    <i class='color-ffd800' color='#ffd800'></i>
+                </div>
+                <span class='setWidth' id='setWidth'>
+                    <span class="sizeTool-1" id="sizeTool-1"></span>
+                    <span class="sizeTool-2" id="sizeTool-2"></span>
+                    <span class="sizeTool-3" id="sizeTool-3"></span>
+                    <span class="sizeTool-4" id="sizeTool-4"></span>
+                    <span class="sizeTool-5" id="sizeTool-5"></span>
+                </span>
+            </div>
+        </span>
+        <a href="javascript:void(0);" class='tool' id="tool-select"></a>
+        <a href="javascript:void(0);" class='tool' id="tool-eraser"></a>
+        <!-- <a href="javascript:void(0);" class='tool' id="tool-line"></a> -->
+        <!-- <a href="javascript:void(0);" class='tool' id="tool-arrow"></a> -->
+        <!-- <a href="javascript:void(0);" class='tool' id="tool-dashed"></a> -->
+        <!-- <a href="javascript:void(0);" class='tool' id="tool-rectangle"></a> -->
+        <a href="javascript:void(0);" class='tool' id="Cancel"></a>
+        <a href="javascript:void(0);" class='tool' id="Add"></a>
+        <!-- <a href="javascript:void(0);" class='tool' id="change-1"></a> -->
+        <!-- <a href="javascript:void(0);" class='tool' id="change-0"></a> -->
+        <!-- <a href="javascript:void(0);" class='tool' id="tool-pan"></a> -->
+        <!-- <a href="javascript:void(0);" class='tool' id="open-image"></a> -->
+        <a href="javascript:void(0);" class='tool' id="clear-lc"></a>
+    </div>
+
+
+    <!--设置scale弹出菜单-->
+    <div id="topPopover" class="mui-popover">
+        <div class="mui-popover-arrow"></div>
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view" id='scaleList'>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-actual" id="pageActual">实际大小</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-fit" id="pageFit">适应页面</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-width" id="pageWidth">适应宽度</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-height" id="pageHeight">适应高度</a></li>
+                    <!-- <li class="mui-table-view-cell"><a href="javascript:void(0);" value="0.5">50%</a></li> -->
+                    <!-- <li class="mui-table-view-cell"><a href="javascript:void(0);" value="0.75">75%</a></li> -->
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="1" id="pageScale1">100%</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="1.25" id="pageScale125">125%</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="1.5" id="pageScale150">150%</a></li>
+                    <!-- <li class="mui-table-view-cell"><a href="javascript:void(0);" value="2">200%</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/vconsole.js"></script>
+     <script src="./js/fastclick.js"></script>
+    <script src="./js/mui.js"></script>
+    <script src="./js/jquery-1.8.2.min.js"></script>
+    <script src="./js/literallycanvas-core.js"></script>
+    <script src="./js/language.js"></script>
+    <script src="./js/index.js?v=3.0.1223"></script>
+    <script src="./js/image.js?v=3.0.1223"></script>
+    <script>
+    </script>
+</body>
+
+</html>

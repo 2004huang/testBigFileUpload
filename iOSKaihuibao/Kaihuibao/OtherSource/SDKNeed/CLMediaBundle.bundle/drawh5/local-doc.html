@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>共享文档</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no, viewport-fit=cover"/>
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <link rel="shortcut icon" href="#"/>
+    <link rel="stylesheet" href="./css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./css/doc.css?V=654">
+    <link rel="stylesheet" href="./css/doc-list.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <script>
+		var u = navigator.userAgent;
+		var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+		var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    </script>
+</head>
+<body tabindex="1" class="loadingInProgress">
+<div class="fs-container doc">
+    <!-- 文档列表 -->
+    <div id="fileList">
+        <header id="header" class="mui-bar mui-bar-nav">
+            <h1 class="mui-title"></h1>
+            <button id="nav-cancel" class="mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left"></button>
+    <!--        <a id="addUpload" class="mui-icon mui-icon-plusempty mui-pull-right" href="#topUploadPop"></a>-->
+        </header>
+        <!--            <header class="mui-bar mui-bar-nav">-->
+        <!--                <h1 class="mui-title">文档列表</h1>-->
+        <!--            </header>-->
+        <nav class="mui-bar mui-bar-tab">
+            <a class="mui-tab-item mui-active" href="">
+                <span class="mui-tab-label" id="bottom-text">请登录官网查看及删除文档</span>
+            </a>
+        </nav>
+        <div class="mui-content">
+            <div class="btn-bottom">
+                <div class="" id="handleBtns">
+                    <span class="file-btn" id="addLocal">
+                        <input type="button" value="上传文档">
+                        <input type="file" name="file" id="addLocalInput" accept='image/gif,image/png,image/jpeg,image/jpg,image/bmp,image/svg,.doc,.docx,.txt,.pdf,.xls,.xlsx,.ppt,.pptx' />
+                    </span>
+                    <span class="file-btn" id="shareBtn">
+                        <input type="button" value="共享">
+                    </span>
+                   <!-- <span class="file-btn delete" id="deleteBtn">
+                        <input type="button" value="删除">
+                    </span>-->
+                </div>
+            </div>
+            <ul class="mui-table-view mui-table-view-chevron" id="fileShow">
+                <!-- <li class="mui-table-view-cell mui-media">
+                    <div class="mui-slider-right mui-disabled">
+                        <a class="mui-btn mui-btn-red">删除</a>
+                    </div>
+                    <a class="mui-slider-handle mui-navigate-right mui-checkbox">
+                        <label>
+                            <input name="checkbox1" type="checkbox" id="radio1">
+                            <img class="mui-media-object mui-pull-left" src="./doc/cbd.jpg">
+                            <div class="mui-media-body">
+                                <span>1.</span>CBD
+                                <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </label>
+                    </a>
+                </li> -->
+            </ul>
+            <div class="no-file">
+                <p>没有上传文档</p>
+                <p>图片支持 jpg, jpeg, webp, png, gif, bmp, svg 格式</p>
+                <p>文档支持 txt, doc, docx, pdf, xls, xlsx, ppt, pptx 格式</p>
+                <p>上传文件大小不能超过100M。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/vconsole.js"></script>
+<script src="./js/fastclick.js"></script>
+<script src="./js/jquery-1.8.2.min.js"></script>
+<script src="./js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/mui.js"></script>
+<script src="./js/language.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/doc-core.js"></script>
+<script>
+	function initLang(isMe){
+		$('#addLocal input[type="button"]').val(Language.uploadFile);
+		$('#fileList .mui-title').html(Language.curMeetFile);
+
+		$('.no-file').html(`
+            <p>${Language.emptyLocal}</p>
+            <p>${Language.imgFormat}</p>
+            <p>${Language.docFormat}</p>
+            <p>${Language.fileSize}</p>
+        `);
+
+        if(isMe){
+            getFileHistory();
+        }
+	}
+	$(function()
+	{
+		curType ='local';
+		// vConsole = new VConsole() // 初始化
+	});
+</script>
+</body>
+
+</html>

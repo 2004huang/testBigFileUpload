@@ -1,0 +1,236 @@
+//  Localizable.strings
+//  CinLanMedia
+//
+//  Created by 刘金丰 on 2018/9/7.
+//  Copyright © 2018年 Cilan. All rights reserved.
+
+
+// Character
+
+"CL_Me"									= "我";
+"CL_YES"                              	= "是";
+"CL_NO"									= "否";
+"CL_ON"									= "开";
+"CL_OFF"								= "关";
+
+
+// Word
+
+"CL_Sure"								= "确定";
+"CL_Cancel"								= "取消";
+"CL_Open"								= "打开";
+"CL_Close"								= "关闭";
+"CL_Start"								= "开始";
+"CL_Stop"								= "停止";
+"CL_End"								= "结束";
+"CL_Remove"								= "移除";
+"CL_Loosen"								= "松开";
+"CL_Press"								= "按住";
+"CL_Hint"								= "提示";
+"CL_More"								= "更多";
+"CL_Success"							= "成功";
+"CL_Complete"							= "完成";
+"CL_Share"								= "共享";
+"CL_Mute"								= "静音";
+"CL_Video"								= "视频";
+"CL_Audio"								= "音频";
+"CL_Screen"								= "屏幕";
+"CL_Picture"							= "照片";
+"CL_Whiteboard"							= "白板";
+"CL_Webpage"							= "网页";
+"CL_Document"							= "文档";
+"CL_SMS"								= "短信";
+"CL_WeChat"								= "微信";
+"CL_Friends"							= "好友";
+"CL_All"								= "全体";
+"CL_Chat"								= "聊天";
+"CL_Caption"							= "字幕";
+"CL_Setting"							= "设置";
+"CL_Apply"								= "申请";
+"CL_Speak"								= "发言";
+"CL_Talk"								= "讲话";
+"CL_Send"								= "发送";
+"CL_Invite"								= "邀请";
+"CL_Copy"								= "复制";
+"CL_Paste"								= "粘贴";
+"CL_Watch"								= "观看";
+"CL_Listen"								= "收听";
+"CL_Broadcast"							= "广播";
+"CL_Leave"								= "离开";
+"CL_Set"								= "设为";
+"CL_Recover"							= "收回";
+"CL_Relieve"							= "解除";
+"CL_Keep"								= "保持";
+"CL_Speed"								= "极速";
+"CL_Fluency"							= "流畅";
+"CL_Distinct"							= "清晰";
+"CL_HighDefinition"						= "高清";
+"CL_BlueLight"							= "蓝光";
+"CL_OriginalSound"						= "原声";
+"CL_PassBack"							= "回传";
+"CL_Receiver"							= "听筒";
+"CL_Translation"						= "翻译";
+"CL_Conference"							= "会议";
+"CL_Password"							= "密码";
+"CL_Again"								= "再次";
+"CL_Rresult"							= "结果";
+"CL_Audit"								= "审核";
+"CL_RaiseHand"                          = "举手";
+"CL_Focus"                              = "焦点";
+"CL_PutHand"                            = "放下手";
+"CL_Auditing"							= "审核中";
+"CL_Speaker"							= "扬声器";
+"CL_MachineSound"						= "AI智能声音";
+"CL_Microphone"							= "麦克风";
+"CL_Camera"								= "摄像头";
+"CL_Creator"							= "创建者";
+"CL_Host"								= "主持人";
+"CL_Participator"						= "参与者";
+"CL_Linkman"							= "联系人";
+"CL_Speaking"							= "正在讲话";
+"CL_CoHost"								= "联席主持人";
+"CL_InterpreterSound"                   = "译员声音";
+"CL_Yesterday"                          = "昨天";
+"CL_Mirror"                             = "镜像";
+"CL_Disconnect"                         = "断开";
+
+
+// Language
+
+"CL_SimplifiedChinese"                	= "简体中文";
+"CL_English"                          	= "英语";
+"CL_Korean"                           	= "韩语";
+"CL_Japanese"                         	= "日语";
+"CL_ArabicLanguage"                   	= "阿拉伯语";
+"CL_Russian"                          	= "俄语";
+"CL_French"                           	= "法语";
+"CL_German"								= "德语";
+
+
+
+// Sentence
+
+"CL_RecentlyUsed"						= "最近已使用";
+"CL_AllLanguage"						= "所有语言";
+"CL_DisplayAtTop"						= "顶部显示";
+"CL_DisplayAtBottom"					= "底部显示";
+"CL_DisplayAtFullScreen"				= "全屏显示";
+"CL_ShorthandSetting"					= "速记设置";
+"CL_TranslationSetting"					= "翻译设置";
+"CL_VideoResolution"					= "视频清晰度";
+"CL_RoomLock"							= "会议锁定";
+"CL_ShareLock"                          = "允许全体参会者共享";
+"CL_ShareOverwriteLock"                 = "共享时允许其他人同时共享";
+"CL_SetSoundSource"						= "选择会场声音";
+"CL_SelectOriginLanguage"				= "选择源语言";
+"CL_SelectTargetLanguage"				= "选择目标语言";
+"CL_ModifyVideoResolution"				= "修改视频清晰度";
+"CL_RelieveAllMute"						= "解除全体静音";
+"CL_WhetherToLeavingTheMeeting"			= "是否离开会议?";
+"CL_WhetherToRelieveAllMute"			= "是否确认解除全体静音?";
+"CL_WhetherToSaveShorthandContent"		= "是否保存速记内容";
+"CL_WhetherToSaveTranslationContent"	= "是否保存翻译记录";
+"CL_WhetherToDisplayCaption"			= "字幕显示";
+"CL_CaptionDisplayMode"					= "字幕显示方式";
+"CL_CaptionFontSize"					= "选择字体大小";
+"CL_ShareScreenTitle"					= "您正在共享屏幕";
+"CL_NoHaveAccess"						= "您没有权限执行该操作";
+"CL_CannotDisableMute"					= "主持人已将全体静音, 您无法自我解除静音";
+"CL_HostLockShare"						= "主持人锁定了参与人共享权限";
+"CL_CannotOverwriteShare"				= "他人正在共享, 此时您将无法进行共享";
+"CL_SharedOverwriteHints"				= "这将停止别人的共享, 是否继续?";
+"CL_YourMicrophoneIsOff"				= "您的麦克风已关闭";
+"CL_YourMicrophoneIsOn"					= "您的麦克风已打开";
+"CL_TheOhtersAreTalking"				= "其他人正在讲话";
+"CL_YourVideoHasBeenStoped"				= "您的视频已被停止";
+"CL_YouHaveBecomeTheHost"				= "您已成为主持人";
+"CL_YouHaveBecomeTheCoHost"				= "您已成为联席主持人";
+"CL_JoinedTheMeeting"					= "加入了会议室";			
+"CL_YouStopedScreenShare"				= "您停止了屏幕共享";
+"CL_YourScreenShareHasBeenClosed"		= "您的屏幕共享被关闭";
+"CL_PasswordNotEmpty"					= "密码不能为空";
+"CL_PleaseEnterURL"						= "请输入网址";
+"CL_URLNotEmpty"						= "网址不能为空";
+"CL_PleaseEnterCorrectURL"				= "请输入正确的网址";
+"CL_AllowUserRelieveMute"				= "允许参与者解除静音";
+"CL_AllUserWillBeMuted"					= "所有参与者将被静音";
+
+"CL_UseHDVideo"                         = "启动高清视频";
+"CL_UseH265Video"                       = "启动H.265高清视频";
+"CL_VideoFitType"                       = "启动填充显示视频";
+"CL_UseMirrorVideo"                     = "启动镜像视频";
+
+"CL_MulComAndShorthand"                 = "多语同传及速记";
+"CL_ChineseConfShorthand"               = "AI中文会议速记";
+"CL_RecongAndTranslation"               = "AI识别翻译";
+"CL_AddMeetingDoc"                      = "添加会议文件";
+"CL_AddFileToCloudDisk"                 = "添加文件到云盘";
+"CL_ChooseYorLanguage"                  = "选择你的语言";
+"CL_DisplaysYourLanguageText"           = "显示你的語言文本";
+"CL_DisplaysUserTranText"               = "显示参与者翻译文本";
+"CL_DisplaysUserOriginText"             = "显示参与者原始文本";
+"CL_CaptionSetting"                     = "字幕设置";
+"CL_ChooseTranLanguage"                 = "选择你要翻译的语言";
+"CL_DisplayLanguageText"                = "显示语言文本";
+"CL_DisplayTranslatedText"              = "显示翻译文本";
+"CL_WhetherToEndLocalTranslation"       = "是否确认结束本地翻译";
+"CL_WhetherToEndChineseShorthand"       = "是否确认结束中文速记";
+"CL_WhetherToEndMulCommunication"       = "是否确认结束多语同传";
+
+
+"CL_CameraOff"                          = "摄像头已关闭";
+"CL_YouStopedWatchingVideo"             = "您停止观看了此路视频";
+"CL_HostOffMLST"                        = "主持人已关闭多语同传";
+"CL_HostOffCS"                          = "主持人已关闭中文速记";
+"CL_TempTurnOffCamera"                  = "临时关闭摄像头";
+"CL_ReturnDesktopAndStartSharing"       = "请返回到手机桌面，开始共享";
+"CL_ConfServerReconnectionFailed"       = "会议服务器重连失败";
+
+
+
+
+
+
+"CL_LockRoomDirection"                  = "不允许参会者加入";
+"CL_ShareLockDirection"                 = "关闭后, 只有主持人可以共享";
+"CL_ShareOverwriteLockDirection"        = "关闭后, 只有主持人可以在其他人共享同时共享";
+"CL_LockRoomTips"						= "是否确定锁定房间, 锁定后将不再有人能够进入(创建者除外)";
+"CL_ScreenSharingTips"					= "屏幕共享功能只支持在iOS12.0以上的系统上使用! 请升级您的设备系统!=>\n 设置->通用->软件更新";
+"CL_MuteModeSpeakTips"					= "当前为禁言模式, 不能打开麦克风发言";
+"CL_TheHostMuteAllUsersTips"			= "主持人已将所有参与者静音";
+"CL_TheHostRequestOpenYourMic"			= "主持人想让你开启您的麦克风";
+"CL_ConfServerConnectionErrorTips"		= "会议服务器连接错误";
+"CL_TheHostEndedTheMeetingTips"			= "主持人结束了本场会议!";
+"CL_VoiceJoinViaDevice"                 = "通过设备语音加入";
+"CL_ConnectAudioAlertTitle"             = "为了听到他人声音请加入音频";
+
+
+
+"CL_SharedStateNotSwitchVideo"          = "共享状态下, 不能切换视频";
+
+"CL_ChatTextFieldPlaceholder"           = "点击输入聊天内容...";
+
+
+"CL_LocalTranStateOpenMLST"             = "主持人已开启多语同传, 您开启的本地翻译功能已自动关闭, 请进行相应设置并加入!";
+
+"CL_OpenMLSTAndSet"                     = "主持人已开启多语同传, 请进行相应设置并加入!";
+
+"CL_LocalTranStateOpenCS"               = "主持人已开启中文速记, 您开启的本地翻译功能已自动关闭, 请进行相应设置并加入!";
+
+"CL_OpenCSAndSet"                       = "主持人已开启中文速记, 请进行相应设置并加入!";
+
+"CL_AISoundNotListenUserAudio"          = "使用AI智能声音时不能收听用户音频";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

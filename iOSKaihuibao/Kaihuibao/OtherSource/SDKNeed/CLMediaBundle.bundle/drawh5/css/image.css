@@ -1,0 +1,154 @@
+.fs-container{
+    overflow: hidden;
+}
+#image-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: auto;
+    text-align: center;
+}
+
+.showImg {
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0); */
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    margin: 0 auto;
+    border-style: none;
+    display: block;
+}
+.showImg.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+.showImg.auto{
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+.showImg.width{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+    
+}
+.showImg.height{
+    height: 100%;
+    width: auto;
+    object-fit: fill;
+}
+.showImg.obj{
+    object-fit: fill;
+}
+.mui-table-view{
+    margin-top: 0;
+}
+
+.scale1 {
+    height: 50%;
+    width: 50%;
+    object-fit: fill;
+    /* height: auto; */
+}
+
+.scale2 {
+    height: 40%;
+    width: 40%;
+    /* height: auto; */
+    object-fit: fill;
+}
+
+.scale3 {
+    /* height: 60%; */
+    width: auto;
+    height: auto;
+    object-fit: fill;
+}
+
+.scale4 {
+    /* height: 80%; */
+    width: 80%;
+    height: auto;
+    object-fit: fill;
+ 
+}
+
+.scale5 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.scale6 {
+    /* height: 125%; */
+    width: 125%;
+    height: auto;
+    object-fit: fill;
+    /* left: 0;
+    top: 0;
+    transform: translate3d(0,0,0); */
+}
+
+.scale7 {
+    /* height: 150%; */
+    width: 150%;
+    height: auto;
+    /* object-fit: fill; */
+    /* left: 0;
+    top: 0;
+    transform: translate3d(0,0,0); */
+}
+
+.scale8 {
+    /* height: 175%; */
+    width: 175%;
+    height: auto;
+    /* object-fit: fill; */
+    /* left: 0;
+    top: 0;
+    transform: translate3d(0,0,0); */
+}
+
+.scale9 {
+    /* height: 200%; */
+    width: 200%;
+    /* height: 100%; */
+    height: auto;
+    /* object-fit: fill; */
+    /* left: 0;
+    top: 0;
+    transform: translate3d(0,0,0); */
+}
+
+.scale10 {
+    /* height: 300%; */
+    width: 300%;
+    height: auto;
+    /* object-fit: fill; */
+    /* left: 0;
+    top: 0;
+    transform: translate3d(0,0,0); */
+}
+
+.scale11 {
+    /* height: 400%; */
+    width: 400%;
+    height: auto;
+    /* object-fit: fill; */
+    /* left: 0;
+    top: 0;
+    transform: translate3d(0,0,0); */
+}

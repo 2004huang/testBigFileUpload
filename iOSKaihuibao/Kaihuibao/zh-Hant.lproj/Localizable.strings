@@ -1,0 +1,883 @@
+/*
+ Localizable.strings
+ Kaihuibao
+ 
+ Created by mac126 on 2018/5/15.
+ Copyright © 2018年 Ferris. All rights reserved.
+ */
+
+
+// tabbar
+"TabBarMeetTitle" = "首頁";
+"TabBarContantTitle" = "通訊錄";
+"TabBarPublicTitle" = "公開直播";
+"TabBarFindTitle" = "發現";
+"TabBarSetTitle" = "我的";
+"TabBarMessageTitle" = "訊息";
+"TabBarConfTitle" = "會議";
+
+// navbar
+"NavBackCancelTitle" = "取消";
+"NavBackComplete" = "完成";
+"NavBackSave" = "保存";
+"NavBackSend" = "發送";
+"NavBackEdit" = "編輯";
+"NavBackCreate" = "新增";
+"NavBackInvite" = "邀請";
+"NavBackADD" = "增加";
+
+// 彈出框的按鈕文字
+"AlertCOk" = "確認";
+"AlertCSet" = "設置";
+"AlertCCancel" = "取消";
+"AlertCSave" = "保存";
+"AlertCKnow" = "知道了";
+"AlertCSaveAndAdd" = "保存並繼續增加";
+"AlertCShareSuccess" = "分享成功";
+"AlertCShareFail" = "分享失敗";
+"AlertCBack" = "回傳";
+
+// 彈出選擇器
+"PickViewOkJoin" = "確認  ";
+"PickViewCancelJoin" = "  取消";
+"PickViewCleanAllCid" = "  清除歷史記錄";
+"PickViewDone" = "完成  ";
+
+// 入會議回呼的提示
+"ERR_NOERROR" = "進會成功";
+"ERR_CONF_NOTEXIST" = "無此會議ID";
+"ERR_CONF_INVALIDPASSWORD" = "帳號或者密碼錯誤";
+"ERR_CONF_ALREADYLOCK" = "會議已被主持人加鎖";
+"ERR_CONF_KICK" = "您被請出會議";
+"ERR_HAS_NOT_LOGIN" = "您未登入！請退出帳號並重新登入";
+"ERR_HTTP_TIMEOUT" = "請求逾時";
+"ERR_CONF_OTHER" = "進會失敗";
+"ERR_CONF_NoConfIDRequest" = "暫無法入會，請檢查網絡等相關設置";
+"ERR_CONF_NoPSWRequest" = "請更新頁面，在進會";
+"ERR_CONF_NoLoginConfServer" = "該會議為對講模式，需要登入後才可以進會";
+
+
+// 網絡請求回呼提示文字
+"NETWORK_searchSeverFail" = "查詢伺服器失敗，請稍後再試!";
+"ERROR_WRONG_PASSWORD" = "密碼錯誤";
+"ERROR_WRONG_PASSWORD2" = "原密碼錯誤";
+"ERROR_USER_NOT_FOUND" = "該用戶尚未註冊";
+"ERROR_INVALID_FORM" = "請輸入正確的手機號或帳號";
+"ERROR_INVALID_FORM2" = "註冊失敗！請稍後再試";
+"ERROR_INVALID_FORM3" = "缺少資料";
+"ERROR_PERMISSION_DENIED" = "你無權進行此操作,請聯繫管理員";
+"NETWORK_error_other" = "請求出錯，請稍後再試!";
+"NETWORK_error_theNet" = "請求出錯，檢查您的網絡設置!";
+"ERROR_WRONG_VALIDATION_CODE" = "驗證碼錯誤，請重新點擊發送";
+"ERROR_INVALID_DATA" = "該用戶已註冊";
+"ERROR_INVALID_DATA2" = "表單錯誤";
+"ERROR_INVALID_DATA3" = "不可以轉移給當前管理員";
+"ERROR_INVALID_DATA4" = "不可以增加自己";
+"ERROR_HAS_NOT_LOGIN" = "您未登入,請重新登入";
+"ERROR_DELEGATE_fail" = "刪除失敗，請稍後再試!";
+"ERROR_Create_fail" = "新增失敗，請稍後再試!";
+"ERROR_Edit_success" = "修改成功";
+"ERROR_AddConf_success" = "安排成功";
+"ERROR_AddConf_fail" = "安排失敗";
+"ERROR_NAME_length_fail" = "內容長度達到上限";
+"ERROR_PSW_length_fail" = "設置密碼不超過6位";
+"ERROR_Live_Public_UP" = "公開直播已提交審核";
+"ERROR_NowHavent_List" = "暫無該列表";
+"ERROR_NowHavent_Function" = "暫無該功能";
+"ERROR_NowHavent_TransManager" = "暫不能轉移管理員";
+"ERROR_YAlready_themember" = "您已加入該討論組";
+"ERROR_Join_success" = "加入成功";
+"ERROR_Join_fail" = "加入失敗";
+"ERROR_NotNow_Manager" = "不可以轉移給當前管理員";
+
+// SIMNewEnterConfTool.m 封裝入會的類
+"EnterPutinPSW" = "請輸入此會議密碼";
+"EnterPSWPlaceHolder" = "密碼";
+"Enter_psw_putinRight" = "請輸入正確的密碼";
+"ENTER_NETWORK_NO_CONNECT" = "無網絡連接";
+"Enter_Info_Video" = "相機權限未開啟";
+"Enter_Info_Video_None" = "相機權限未開啟，請進入系統【設置】>【隱私】>【相機】中打開開關,開啟相機功能";
+
+// SIMEntranceViewController.m
+"KHBLogin" = "登 錄";
+"KHBRegister" = "注 冊";
+"JoinMeeting" = "加入會議";
+"SetSeverceAdress" = "設置伺服器";
+"OnlineLearn" = "注冊/登錄";
+"InputYourMeetName" = "請輸入您的進會暱稱";
+"PlaceHolderInputYourMeetName" = "暱稱為必須輸入";
+
+// SIMLoginViewController.m
+"KHBForgetPassword" = "忘記密碼？";
+"KHBGoRegister" = "註冊";
+"KHBAccount" = "帳號";
+"KHBPassword" = "密碼";
+"KHBAccountPlaceHolder" = "請輸入帳號";
+"KHBPasswordPlaceHolder" = "請輸入密碼";
+"KHBPhoneNumPlaceHolder" = "請輸入手機號";
+"KHBNickNamePlaceHolder" = "請輸入暱稱";
+"KHBCodePlaceHolder" = "請輸入驗證碼";
+"KHBPSWLengthPlaceHolder" = "請輸入6-18位密碼";
+"KHBPSWRightPlaceHolder" = "確認密碼";
+"JSBPSWRightPlaceHolder" = "請再次輸入";
+"KHBNextStepBtn" = "下一步";
+"KHBImmediateLearnBtn" = "立即體驗";
+"KHBcodeReObtain" = "重發驗證碼";
+"KHBcodeReObtainMinute" = "重新獲取";
+"KHBcodeObtainClick" = "點擊發送驗證碼";
+"KHBgoLoginClick" = "已有帳號，去登入";
+"KHBagreeAndReadClick" = "閱讀並同意";
+"KHBseverceAndListPrivateClick" = "隱私政策";
+"KHBseverceAndListClick" = "服務條款";
+"JSBNextConfirmClick" = "確定";
+
+// 註冊提示
+"ERROR_WRONG_PhoneNumber" = "請輸入正確的手機號碼";
+"ERROR_PhoneNumber_NOT_FOUND" = "該手機號未註冊";
+"ERROR_PhoneNumber_Aready_Regist" = "該手機號已註冊";
+"ERROR_Please_puinCode" = "請輸入驗證碼";
+"ERROR_failsend_Code" = "驗證碼發送失敗";
+"ERROR_alreadysend_Code" = "已發送驗證碼,注意查收";
+"ERROR_six_psw" = "請輸入至少6位密碼";
+"ERROR_kind_psw" = "請輸入數字、字母或兩者組合";
+"ERROR_re_psw" = "請輸入確認密碼";
+"ERROR_twowrong_psw" = "確認密碼與新密碼不符，請重新輸入";
+"ERROR_repsw_success" = "修改成功";
+"ERROR_regist_success" = "註冊成功";
+
+// 設置伺服器
+"KHBSettingService" = "設置伺服器";
+"KHBReDefaultSer" = "恢復預設值";
+"KHBReDefaultSerExplain" = "更改伺服器地址後，點擊「修改「按鈕，點擊回傳後生效";
+"KHBAlterBtn" = "修改";
+"KHBPutinAdress" = "輸入地址:";
+"KHBPutinPort" = "輸入端口:";
+"ERROR_WRONG_AdressAndPort" = "請輸入有效的伺服器地址或端口";
+
+// 加入會議 ------
+"MJoinTheMeeting" = "加入會議";
+"MJoinTheLiving" = "觀看直播";
+"MGoBackLookTheLiving" = "直播列表";
+"MPutinConfIDPlaceHolderID" = "會議ID";
+"MPutinConfIDPlaceHolderRoom" = "會議室名稱";
+"MPutinLiveIDPlaceHolder" = "直播間ID";
+"MJoinPswPlaceHolder" = "進會密碼";
+"MJoinLivePswPlaceHolder" = "直播密碼";
+"MJoinNamePlaceHolder" = "暱稱為必填項";
+"MJoinMeetingChoose" = "加會選項";
+"MJoinTakeOnVoiceSwitch" = "進入會議時開啟語音";
+"MJoinTakeOnVideoSwitch" = "進入會議時開啟攝影鏡頭";
+"MJoinLiveTakeOnVoiceSwitch" = "進入直播時開啟語音";
+"MJoinLiveTakeOnVideoSwitch" = "進入直播時開啟攝影鏡頭";
+"MJoinMeetingExplainText" = "如果無密碼，可不輸入密碼";
+"MJoinMeetingExplainText2" = "如果您收到了一個邀請鏈接，請點擊它直接加入";
+"MJoinMeetingTypeRoom" = "使用會議室名稱加會";
+"MJoinMeetingTypeID" = "使用會議ID加會";
+
+// 編輯個人會議室
+"MEditMineMeeting" = "編輯";
+"MEMineConfID" = "個人會議ID";
+"MEMineConfName" = "會議室名稱";
+"MEMineConfPSW" = "會議室密碼";
+"MEMineLiveID" = "個人直播ID";
+"MEMineLiveName" = "直播間名稱";
+"MEMineLivePSW" = "直播間密碼";
+"MEMineConfMainPSW" = "主持人密碼";
+"ME_Setting_Success" = "設置成功";
+"ME_Setting_Fail" = "設置失敗";
+"MEMineConfPSWLength" = "設置會議密碼不超過6位";
+"MEMineConfNameLength" = "請輸入名字長度不要超過32位";
+"MEMineConfName" = "會議室名稱";
+"MEMineConfNamePlaceHolder" = "請輸入會議室名稱";
+"MEMineConfNameExplain" = "您的會議室名稱是您會議URL的別名 不可以為空";
+
+// 會議資訊
+"MMessEdit" = "資訊";
+"MMessSupportName" = "主題";
+"MMessSupportID" = "會議ID";
+"MMessSupportExplain" = "會議說明";
+"MMessSupportINConf" = "進入";
+"MMessSupportInAdd" = "增加受邀者";
+"MMessEditLive" = "直播";
+"MMessEditConf" = "會議";
+"MMessEditConfOne" = "視訊";
+"MMessEditLiveTitle" = "編輯直播";
+"MMessEditConfTitle" = "編輯會議";
+"MMessEditTime" = "時間";
+"MMessTimeRepeat" = "週期";
+"MMessTimeLength" = "會議時長";
+"MMessTimeExplain" = "會議說明";
+"MMessTimeStart" = "開始會議";
+"MMessShareLive" = "分享直播";
+"MMessDelegate" = "刪除";
+
+// 安排編輯會議
+"MArrangeConf" = "安排會議";
+"MArrangeNewLive" = "新建直播";
+"MArrangeConfRepeat" = "重複";
+"MArrangeConfRepeat_None" = "無";
+"MArrangeConfRepeat_Never" = "從不";
+"MArrangeConfRepeat_Day" = "每天";
+"MArrangeConfRepeat_Week" = "每週";
+"MArrangeConfRepeat_TwoWeek" = "每兩周";
+"MArrangeConfRepeat_Month" = "每月";
+"MArrangeConfExplain" = "說明";
+"MArrangeConfIS" = "的會議";
+"MArrangeConfISLIVE" = "的直播";
+"MArrangeStarTime" = "開始時間";
+"MArrangeStarChoose" = "請選擇";
+"MArrangePSW" = "會議密碼";
+"MArrangeLiveRealTime" = "實時直播";
+"MArrangeLivePublicTime" = "公開直播";
+
+"MArrangeConfExplainTest" = "在此設置您的會議說明。";
+
+// 首頁
+"MMainMeetingHeaderTitleING" = "正在進行的會議";
+"MMainMeetingHeaderTitleREP" = "週期會議";
+"MMainLiveHeaderTitleING" = "正在進行的直播";
+"MMainLiveHeaderTitleREP" = "週期直播";
+"MMainLiveNoneTitle" = "暫無計劃安排";
+"MMainSquareNoneTitle" = "沒有資料哦";
+"MMainLiveNoneTitleTest" = "請使用電腦客戶端或手機app新建會議/直播l";
+
+"MMainConfStartBtn" = "開始";
+"MMainConfStartNewBtn" = "開始會議";
+"MMainLiveStartNewBtn" = "開始直播";
+"MMainConfSendBtn" = "發送邀請";
+"MMainConnectServerFail" = "連接會議伺服器失敗";
+"MMainConfMineIDtitle" = "我的會議室";
+"MMainConfLiveIDtitle" = "我的直播間";
+"MMainConfSendMineIDtitle" = "發送會議邀請";
+"MMainLiveSendMineIDtitle" = "發送直播邀請";
+"MMainConfSupport" = "支援中心";
+"MMainConfVideoSupport" = "我的視訊客服";
+"MMainConfHeaderJoin" = "加入會議";
+"MMainConfHeaderSchedule" = "安排會議";
+"MMainConfHeaderLive" = "新建直播";
+"MMainConfHeaderStartAMeeting" = "開始會議";
+"MMainConfHeaderAdress" = "視訊營銷";
+"MMainConfHeaderMineConf" = "我的會議";
+"MMainConfRepsonAConf" = "發起會議";
+"MMainConfRepsonALive" = "發起直播";
+"MMineConftitle" = "我的會議室";
+"MMainMoreAppTitle" = "更多應用";
+"MMainMoreDeviceTitle" = "更多設備";
+
+// 首頁會議的企業通訊錄
+"ContantCompanyContant" = "企業通訊錄";
+"CAddCompanyMember" = "增加成員...";
+"CAddCompanyFromAdress" = "從手機通訊錄中增加";
+"CAddCompanyBYHand" = "手動輸入增加";
+"CAddCompanyBYWeChat" = "從微信好友中增加";
+
+// 通訊錄模組
+"ContantManAdress" = "聯繫人";
+"ContantDevice" = "設備";
+"ContantGroup" = "討論組";
+"ContantAddOtherMan" = "增加外部聯繫人";
+"CContactOthersMan" = "外部聯繫人";
+"CContactCustomerManage" = "客戶管理";
+"CContactOrgan" = "組織架構";
+"CContactMineAdress" = "我的好友";
+"CContactPhoneContant" = "手機聯繫人";
+"ContantAddCompany" = "增加企業通訊錄";
+"CContactCompany" = "企業通訊錄";
+"ContantDeviceNameH323" = "H.323/SIP設備";
+"CAddDevice" = "增加設備...";
+"CAddDeviceNavTitle" = "增加設備";
+"CAddDevice_HeaderChoose" = "請選擇你的會議室類型";
+"CAddDevice_HeaderIP" = "輸入你的IP地址";
+"CAddDevice_HeaderYourName" = "輸入你的設備名稱";
+"CAddDevice_HeaderIPTitle" = "IP地址";
+"CAddDevice_HeaderMineDevice" = "我的設備";
+"CAddDevice_LengthText" = "請輸入IP地址或E.164號碼";
+"CAddDevice_CreateSuccess" = "新增成功";
+
+// 地圖
+"CCMapTitle" = "地圖定位";
+"CCMapTitleAbbreviation" = "地圖";
+"CCMapTitleDetail" = "會議室ID";
+
+// 群組
+"ContantGroup_mine" = "我的討論組";
+"ContantGroup_company" = "企業討論組";
+"ContantGroup_Joined" = "加入討論組";
+"ContantGroup_NewCreate" = "新建討論組";
+"CGInviteMember" = "邀請成員";
+"CGChooseCont" = "選擇聯繫人";
+"CGDelegateCont" = "刪除成員";
+"CGAddMember" = "增加";
+"CGDeleteMember" = "刪除";
+"CGName" = "討論組名稱";
+"CGJustCompanyMan" = "僅能邀請組織內成員";
+"CGNamePlaceHolder" = "點擊修改";
+"CGDeleteAndLeave" = "刪除並退出";
+"CGVideoClick" = "視訊通話";
+"CGVoiceClick" = "通話";
+"CGMessageClick" = "聊天";
+"CGShareScreenClick" = "螢幕共享";
+"CGInviteRegistClick" = "邀請註冊";
+"CGName_not_empty" = "討論組名稱不可為空";
+"CGTransCroupManager" = "轉移群管理員";
+"CGLeaveCroup" = "退出該討論組";
+"CGDeleteContinue" = "繼續刪除";
+"CGDeleteCroupMess" = "您將永久移除該討論組所有資訊，檔案和其他相關資訊。這些在操作之後將無法恢復。";
+"CGChangeNameSave" = "你更改了討論組名稱,是否要保存?";
+"CGNewManger" = "分配新的管理員";
+"CGSearchBarPlaceHolder" = "搜尋聯繫人";
+"CGSearchResult" = "搜尋結果";
+"CGSearchBarTitle" = "搜尋";
+"CGOtherMamberNothave" = "暫無其他人員";
+"CGGroupNothave" = "暫無組織內討論組";
+
+// 聯繫人
+"CCContantMainName" = "通訊錄";
+"CCAddContant" = "增加聯繫人...";
+"CCAddContantLittle" = "增加聯繫人";
+"CCAddMember" = "增加成員...";
+"CCAddTheMemberTitle" = "增加成員";
+"CCAllMemberGroup" = "全員群";
+"CCAddTheFriendsTitle" = "增加好友";
+"CCAddNewFriends" = "新的好友";
+"CCAddMember_Success" = "增加成功";
+"CCAddMember_AlreadyHave" = "該聯繫人已存在";
+"CCInfoPlistAdress" = "打開通訊錄權限";
+"CCInfoPlistAdressTEST" = "為說明用戶快速建立會議聯繫，請前往iPhone的〔設置] -- [開會寶]中打開[通訊錄]開關，允許訪問通訊錄";
+"CCAdressPostOnServer" = "為說明用戶快速建立會議聯繫";
+"CCAdressPostOnServerTEST" = "您的通訊錄將同步並加密儲存到我們的伺服器上。以便通過手機通訊錄搜尋和增加好友，快速發起會議或訊息。";
+"CCSendFriend_Success" = "發送好友邀請成功";
+"CCSendMess_Success" = "發送短信邀請成功";
+"CCSendInviteSend_Success" = "成功發送邀請";
+"CCOwenMess" = "個人資訊";
+"CCNewCustomJoin" = "預約回電";
+"CCOwenMess_PHONE" = "手機號";
+"CCOwenMess_TELE" = "電話";
+"CCOwenMess_Role" = "角色";
+"CCOwenMess_Devel" = "部門";
+"CCOwenMess_Email" = "郵箱";
+"CCOwenMess_Company" = "企業";
+"CCOwenMess_ConfID" = "會議號";
+"CCCompanyMess" = "企業資訊";
+"CCCreateNewContant" = "新增聯繫人";
+"CCCreateToNowContant" = "增加到現有聯繫人";
+"CCDeleteContant" = "刪除聯繫人";
+"CCDeleteContant_success" = "刪除該聯繫人成功";
+"CCDeleteContant_notFriend" = "雙方不存在聯繫人關係";
+
+"CCFriend_Relation_sended" = "已發送";
+"CCFriend_Relation_Added" = "已增加";
+"CCFriend_Relation_Registed" = "已註冊";
+"CCContantLeader" = "新增人";
+// 增加成員SIMAccountCompanyViewController
+"CCMemberAddPage" = "增加成員";
+"CCMemberAddPage_boy" = "男";
+"CCMemberAddPage_girl" = "女";
+"CCMemberAddPage_sex" = "性別";
+"CCMemberAddPage_phone" = "手機";
+"CCMemberAddPage_Choose" = "選填";
+"CCMemberAddPage_Request" = "必填";
+"CCMemberAddPage_explain" = "保存後自動發送邀請通知";
+"CCMemberAddPage_Sign" = "企業成員姓名為必填";
+
+// 點對點呼叫
+"CCallEND" = "通話結束";
+"CCallCancel" = "通話已取消";
+"CCallOtherCut" = "對方已掛斷，通話結束";
+"CCallAccpect" = "接聽";
+"CCallConnectTimeOut" = "連接逾時";
+"CCallTransVideo" = "切換到視訊通話";
+"CCallTransVoice" = "切換到語音通話";
+"CCallInviteYCall" = "邀請你進行視訊通話...";
+"CCallWaiting" = "正在等待對方接受邀請...";
+"CCallNonePhone" = "對方手機可能不在身邊，建議稍後再次嘗試";
+"CConfInviteTypeRefuse" = "對方已拒絕了您的通話請求";
+"CConfInviteTypeNoLine" = "對方不在線";
+"CConfInviteTypeTimeout" = "對方無應答";
+"CConfInviteTypeOther" = "未知錯誤";
+"CConfInviteTypeBusy" = "對方忙，請稍後再聯繫";
+"CConfInviteType_Others" = "呼叫失敗，請稍後再試";
+
+// 發現模組
+"FindMainTitle" = "發現";
+
+/*
+ 設置模組
+ */
+// 設置首頁
+"SettingMainTitle" = "我的";
+"SConfPlan" = "立即购买/升级/续费";
+"SBuyOrder" = "訂單";
+"SMyWallet" = "錢包";
+"SMyServer" = "我的客服";
+"SIntelligentOffice" = "智能硬件辦公";
+"SAccountMess" = "賬戶資訊";
+"SSystemNotifiy" = "系統通知";
+"SConfSetting" = "會議設置";
+"SConfDocument" = "會議文件";
+"SMessageNotify" = "訊息通知";
+"SLanguages" = "多語言環境";
+"SAbort" = "關於";
+"SAbortUSConnect" = "聯繫我們";
+// 系統通知
+"SSystemNotifiyNone" = "暫無系統通知";
+// 賬戶資訊
+"SAccountName" = "賬戶名稱";
+"SAccountRole" = "賬戶角色";
+"SAccountType" = "賬戶類型";
+"SAccountLevelHigh" = "高級用戶";
+"SAccountLevelNormal" = "普通用戶";
+"SAccountPossesser" = "擁有者";
+// 會議設置
+"SAutoOnVoice" = "自動連接語音";
+"SAutoSilent" = "麥克風自動靜音";
+"SAutoOnCamera" = "自動打開攝影鏡頭";
+"SShowConfTime" = "顯示已加會議時長";
+"SShowBeauty" = "開啟美顏";
+// 訊息通知
+"STakeOnMessNotify" = "開啟訊息通知";
+"STakeOnVibrate" = "開啟震動";
+"STakeOnVoice" = "開啟聲音";
+"SShowLeaveMan" = "顯示離線聯繫人";
+// 關於
+"SShowAppVersion" = "版本";
+"SSendFeed" = "發送回饋";
+"SRecommenApp" = "向他人推薦開會寶";
+"SInviteWebSite" = "訪問開會寶官網";
+"SSendStarToUS" = "給我們評分";
+"SSendFeedPage" = "回饋";
+"SSendFeedPageTest" = "我們歡迎任何關於開會寶的意見，想法和建議。";
+"SSendFeed_not_empty" = "內容不能為空";
+"SSendFeed_success" = "發送成功";
+// 我的資料
+"SMineData" = "我的資料";
+"SMineDataIcon" = "頭像";
+"SMineDataName" = "姓名";
+
+"SMineDataCompany" = "公司名稱";
+"SMineDataPSW" = "登入密碼";
+"SMineDataConfID" = "個人會議室ID";
+"SLogoutTheApp" = "登出";
+"SAlreadyLogoutTheApp" = "確定退出？";
+"STakePhotos" = "拍照";
+"SChooseAtPicture" = "從手機相冊選擇";
+"Setting_Info_Picture" = "訪問照片權限未開啟";
+"Setting_Info_PictureText" = "訪問照片權限未開啟，請進入系統【設置】>【隱私】>【照片】中打開開關,開啟照片相冊功能";
+"Setting_Info_Camera" = "相機權限未開啟";
+"Setting_Info_CameraText" = "相機權限未開啟，請進入系統【設置】>【隱私】>【相機】中打開開關,開啟相機功能";
+"Setting_NO_Camera" = "未檢測到攝影鏡頭";
+"SMineScreenName" = "編輯姓名";
+"SNameNoEmptyPlaceHolder" = "輸入姓名 姓名不可以為空";
+"SCompanyNoEmptyPlaceHolder" = "輸入公司名稱 不可以為空";
+"SSettingInfo" = "完善資訊";
+"SSettingInfo_company" = "公司名稱";
+"SSettingInfo_post" = "職位";
+"SSettingInfo_count" = "與會人數";
+"SSettingInfo_TestOne" = "完善資訊立刻開始視訊會議";
+"SSettingInfo_TestTwo" = "您可以通過手機、PC、硬件終端連接會議";
+"SSettingInfo_name" = "請輸入您的姓名";
+"SSettingInfo_Yourphone" = "請輸入您的電話";
+"SSettingInfo_companyPlace" = "請輸入您的公司";
+"SSettingInfo_Remark" = "需求備註";
+"SSettingInfo_RemarkPlaceHolder" = "請輸入您的需求備註";
+"SSettingInfo_postPlace" = "請輸入您的職位";
+"SSettingInfo_countPlace" = "請輸入與會人數";
+"SChangePSW" = "更改密碼";
+"SChangePSW_OldPH" = "舊密碼";
+"SChangePSW_NewPH" = "新密碼";
+
+/*
+ 公開直播--以後可能去掉
+ */
+"PLivingTileNow" = "實時直播";
+"PLivingTileWill" = "延時直播";
+"PLivingTileDetail" = "直播詳情";
+"PLivingTileLookTheLive" = "觀看直播";
+
+/*
+ 分享內容
+ */
+"ShareInContant" = "企業聯繫人";
+"ShareInBrowser" = "瀏覽器打開";
+
+// 成員分享
+"ShareAddContantWECHAT" = "已開通開會寶企業級帳號，邀請你加入企業";
+
+// abort分享app
+"MailSend" = "發送郵件";
+"MailSendTest" = "請前去設置您的系統郵件賬戶";
+"MailSendSubject" = "邀請您使用開會寶";
+"AbortShareSendTest" = "我正在使用開會寶APP，註冊即送免費雲會議室，召開多方視訊會議，高效溝通。點擊鏈接下載";
+"MailSendCancel" = "您取消了發送郵件";
+"MailSendSave" = "郵件保存成功";
+"MailSendSend" = "郵件發送成功";
+"MailSendFail" = "郵件發送失敗，請重新發送";
+
+"MessageSend" = "發送短信";
+"MessageSendTest" = "該設備不支援發送短信";
+"MessageSendCancel" = "您取消了發送短信";
+"MessageSendSend" = "資訊發送成功";
+"MessageSendFail" = "資訊發送失敗，請重新發送";
+"ShareToDepartMemberTitle" = "分享到企業聯繫人";
+
+// adressviewcontroller  and resultviewcontroller
+"AdressShareSendTest" = "邀請您下載開會寶。9.9元月/點，註冊即可獲得100方免費視訊會議，智能雲會議、多屏互動、智能平板…";
+
+// adressbookviewcontroller
+// 開會為1001
+"AdressBookShareTest" = "邀請您下載開會寶。9.9元月/點，註冊即可獲得100方免費視訊會議，智能雲會議、多屏互動、智能平板…";
+"AdressBookShareMainTitle" = "邀請您下載開會寶";
+"AdressBookShareMainTest" = "9.9元月/點，註冊即可獲得100方免費視訊會議，智能雲會議、多屏互動、智能平板…";
+
+"AdressBookShareERROR" = "未檢測到分享平台的客戶端，請前去下載安裝";
+"NewAdressBookShareTitle" =  "我在使用開會寶召開視訊會議，點擊%@%@ ，免費下載。";
+
+"WeChatSend" = "微信分享";
+"NewEmailSend" = "郵件邀請";
+"NewMessageSend" = "短信邀請";
+"SaveToThePhotoAlbum" = "保存圖片";
+"PaseboardToSend" = "複製到剪貼板";
+"PaseboardSend" = "複製鏈接";
+"PaseboardToSended" = "已複製到剪貼板";
+"ErweimaSendTitle" = "二維碼邀請";
+"ErweimaSendText" = "長按圖片保存二維碼";
+"ErweimaSendPicText" = "掃描二維碼，立即加入視頻會議";
+"ErweimaSendSuccessText" = "已保存至本地，請在相冊中查看！";
+"MMailSendTest" = "邀請您加入一場會議";
+"MMessageWechatTitle" = "邀請你加入一場";
+"MMessageWechatSubject" = "主題";
+"MMessageWechatContant" = "可使用手機App、電腦、視訊終端加入";
+"MEmailSendSubject" = "您好";
+"MEmailSendSelfConf" = "的個人會議室";
+
+"Image" = "图片";
+"Video" = "视频";
+"Shoot" = "拍摄";
+"LocalFile" = "本地文件";
+// 時間字串
+"TimeToday" = "今天";
+"TimeTomorrow" = "明天";
+"TimeAfterTomorrow" = "後天";
+"TimeYearANDday" = "yyyy年MM月dd日";
+"TimeMonthANDday" = "MM月dd日";
+
+"TimeYesterdayAndTime" = "昨天 HH:mm";
+"TimeTodayAndTime" = "今天 HH:mm";
+"TimeTomorrowAndTime" = "明天 HH:mm";
+"TimeAfterTomorrowAndTime" = "後天 HH:mm";
+"TimeYearANDdayAndTime" = "yyyy年MM月dd日 HH:mm";
+
+"TimeYesterdayAndTimeList" = "昨天";
+"TimeYearANDdayAndTimeList" = "yyyy/MM/dd";
+
+"TimeTodayAM" = "今天 上午 hh:mm";
+"TimeTodayPM" = "今天 下午 hh:mm";
+"TimeTomorrowAM" = "明天 上午 hh:mm";
+"TimeTomorrowPM" = "明天 下午 hh:mm";
+"TimeAfterTomorrowAM" = "後天 上午 hh:mm";
+"TimeAfterTomorrowPM" = "後天 下午 hh:mm";
+"TimeYearANDdayAM" = "yyyy年MM月dd日 上午 hh:mm";
+"TimeYearANDdayPM" = "yyyy年MM月dd日 下午 hh:mm";
+
+"TimeAM" = "hh:mm\n上午";
+"TimePM" = "hh:mm\n下午";
+
+"TimeMinutes" = "分鐘";
+"TimeHour" = "小時";
+
+"TimeMinutesFormatter" = "分鐘";
+"TimeHourFormatter" = "小時";
+
+"TimeZoneText" = "zh_CN";
+
+// 支付介面
+"NPayBuyLiuLiang_TypeName" = "支付方式";
+"NPayBuyLiuLiang_TypeWechat" = "微信支付";
+"NPayMainSeverce_titleOne" = "視訊會議";
+"NPayMainSeverce_titleOne_Man" = "參會者";
+"NPayMainSeverce_titleOne_Room" = "在線會議室";
+"NPayMainSeverce_titleThree" = "視訊客服";
+"NPayMainSeverce_titleThree_Man" = "主持人";
+"NPayMainS_lookThePlanText" = "查看計劃";
+"NPayMainS_NowPlanText" = "當前計劃";
+"NPayAlertViewsucess" = "支付成功";
+"NPayAlertViewfail" = "支付失敗";
+"NPayAlertViewNoPayed" = "未支付";
+"NPayAlertViewCancel" = "取消支付";
+"NPayAlertViewfailDetail" = "訂單支付失敗，請重新支付";
+"NPayAlertViewname" = "計劃名稱";
+"NPayAlertViewdate" = "有效期";
+"NPayAlertViewprice" = "費用";
+"NPayAlertViewprice_all" = "總金額";
+"NPayMain_NextBnt" = "馬上體驗";
+"NPayMain_PlanText" = "計劃";
+"NPayMain_PayLast" = "支付";
+"TopUphasMoney_TOPon" = "需要支付%@元";
+"NPayMain_Month" = "1個月";
+"NPayMain_Year" = "1年";
+"NPayHistoryOneTitle" = "全部";
+"NPayHistoryTimeLong" = "購買時長";
+"NPayHistoryDate" = "有效期";
+"NPayHistoryCount" = "賬單號";
+"NPayAlertViewprice_pay" = "支付金額";
+"NPayChooseTitle" = "購買升級";
+"NPayPlanTitle" = "會議計劃";
+"NPayServiceTitle" = "擴展服務";
+"NPayNowPlanTitle" = "當前計劃";
+"NPayNowServiceTitle" = "當前服務";
+"NPayAccountUpgrade" = "賬戶升級";
+"NPayDetailTitle" = "詳情";
+"NPayConfirmedOpening" = "確認開通";
+"NPayConfirmedOpeningPText" = "開啟%@後將自動從錢包中扣除計劃產生費用，開通後可在當前計劃中關閉該項計劃。";
+"NPayConfirmedOpeningSText" = "開啟%@後將自動從錢包中扣除計劃產生費用，開通後可在當前計劃中關閉該項計劃。";
+"NPayListRecommendTitle" = "推薦";
+"NPayMineTimingPlanText" = "您當前是%@，支持%@名參會者，無會議時間限制";
+"NPayMineFreePlanText" = "您當前是%@，如需更多參與人加入\n會議，與享受更流暢的音視頻體驗，請升級計劃";
+"NPayMinePaymentPlanText" = "您當前的%@，支持%@名參會者，還有%ld天\n計劃服務到期，為了不影響您的使用，請盡快續費或升級";
+"NPayMineBtnLookText" = "查看計劃";
+"NPayMineBtnCloseText" = "關閉計劃";
+"NPayMineBtnUpdateText" = "升級計劃";
+"NPayNowSOpenDate" = "開通日期";
+"NPayNowSCountDown" = "倒計時";
+"NPayNowSPaymethod" = "付款方式";
+"NPayAllNext_Title" = "訂單總覽";
+"NPayAllNext_manunit" = "名";
+"NPayAllNext_roomunit" = "間";
+"NPayAllNext_hostunit" = "位";
+"NPayAllNext_OfferTitle" = "優惠";
+"NPayAllNext_OrderTitle" = "訂單詳情";
+"NPayAllNext_HelpText" = "注：購買成功後，不能退款或者轉贈他人\n如有問題，請撥打：400-080-5766";
+"NPayReservationOrderTitle" = "预约订单";
+"NPayResOrdPaymentTitle" = "待付款";
+"NPayResOrdDeliverTitle" = "待发货";
+"NPayResOrdReceiptTitle" = "待收货";
+"NPayResOrdCompleteTitle" = "已完成";
+
+// 錢包
+"TopUpwallet_centerTitle" = "餘額充值";
+"TopUpwallet_nowCount" = "當前錢包餘額";
+"TopUpwithdraw_detailTitle" = "賬單";
+"TopUpwithdraw_noWechat" = "不支持微信支付";
+
+// 營銷客服  視訊客服
+"SConfSMessEditConf" = "坐席";
+"SConfSMessMineConf" = "的坐席";
+"SConfSMessShareWEIPage" = "坐席分享";
+"SConfSMessShareProduct" = "分享產品服務";
+"SConfSMessStartTheChar" = "啟動";
+"SConfSMessMineID" = "個人坐席ID";
+"SConfSMessMinePSW" = "坐席密碼";
+"SConfSMessStartTheVideoSer" = "啟動客服";
+"ClassBaoUpdateDetail" = "您的開會寶版本過低，請升級體驗最新版開會寶吧";
+
+// 新營銷客服
+"VideoMarketList_start" = "進入直播";
+"VMListShare_wechatFriend" = "發送給朋友";
+"VMListShare_wechatCricle" = "分享到朋友圈";
+"VMListShare_message" = "通過短信分享";
+"VMListShare_pasteboard" = "複製鏈接到剪貼板";
+"VMCreate_chatName" = "坐席名稱";
+"VMCreate_chatpsw" = "坐席密碼";
+"VMCreate_LivingPSW" = "直播間密碼";
+"VMCreate_LivingWord" = "直播間公告";
+"VMCreate_LivingPic" = "直播間背景圖";
+
+"CompanyChose_title" = "選擇企業";
+"CompanyChose_enter" = "進入企業";
+"CompanyChose_MineCompany" = "我的企業";
+"CompanyChose_change_title" = "切換企業";
+
+"JSBLoginGetTheCode" = "獲取驗證碼";
+"NewLoginWithPassWord" = "賬號密碼登入";
+"NewLoginWithCode" = "驗證碼登入";
+"NewMainLoginTitle" = "歡迎使用開會寶";
+"AccoutLogin" = "賬號密碼登入";
+"UseAccoutLogin" = "使用賬號密碼登入";
+"UseCodeLogin" = "使用驗證碼登入";
+
+// 增加成員新的
+"AUListWechat" = "通過微信邀請";
+"AUListQQ" = "通過QQ邀請";
+"AUListMessage" = "通過短信邀請";
+"AUListAdressBook" = "從手機通訊錄增加";
+"AUListPutin" = "手動輸入增加";
+
+// 會議模式
+"ConfModeTitle" = "會議模式";
+"ConfModeMainVideo" = "主持人是否開啟視訊";
+"ConfModeMainAudio" = "主持人是否開啟音訊";
+"ConfModeJoinVideo" = "參會者是否開啟視訊";
+"ConfModeJoinAudio" = "參會者是否開啟音訊";
+// 新通訊錄
+"ContactIvitedPeople" = "邀請人們使用開會寶";
+"ContactCompanyTitle" = "公司名錄";
+"ContactConfRoomTitle" = "會議室";
+"ContactCompanyContactTitle" = "企業聯繫人";
+"ContactInviteAddBottomTitle" = "邀請同事加入";
+// 分享會議邀請內容
+"ShareConfInviteOnePart" = "%@ 邀請您参加%@\n会议主题：%@\n会议开始时间：%@\n邀请人：%@\n\n点击链接直接加入会议：\n %@ ";
+"ShareConfInviteOnePartWechat" = "会议主题：%@\n会议开始时间：%@\n邀请人：%@\n\n点击链接直接加入会议：\n %@ ";
+"ShareConfInviteTwoPart" = "開啟或加入一場已安排好的會議。";
+"ShareConfInviteToWechat" = "會議通知：點擊即可開啟或加入一場已安排好的會議。";
+"ShareContactInviteToWechatTitle" = "邀請您加入他的企業";
+"ShareContactInviteToWechatText" = "我們在使用星瀾科技的開會寶，開會簡單更高效。";
+"ShareVideoServceText" = "邀請好友，一起參加會議培訓，更加快速直觀\n的瞭解多重會議模式";
+"ShareTheDownLoadTitle" = "分享下載链接";
+"ShareTheScanTitle" = "掃一掃";
+"ShareTheConnectServceTitle" = "聯繫客服";
+
+"ConfModelFreeCamaraTitle" = "自由討論會議";
+"ConfModelFreeCamaraDetail" = "參會者可自由發言、討論及視訊對話";
+"ConfModelMainBroadcastTitle" = "網絡廣播會議";
+"ConfModelMainBroadcastDetail" = "主持人通過廣播的形式，對所有視訊畫面進行統一控制管理";
+"ConfModelMainCameraTitle" = "網絡研討會";
+"ConfModelMainCameraDetail" = "主持人可以對視訊畫面進行控制管理，參會者始終跟隨主持人的視訊畫面";
+"ConfModelIntercomTitle" = "對講機模式會議";
+"ConfModelIntercomDetail" = "智能語音實時1對1、1對多對講系統";
+"ConfModelVoiceSeminarTitle" = "語音電話會議";
+"ConfModelVoiceSeminarDetail" = "所有人採用語音溝通，由主持人控制全體參與者的視訊開關";
+"ConfModelTrainingConferenceTitle" = "在線培訓會議";
+"ConfModelTrainingConferenceDetail" = "系統介面自動切換為在線培訓介面，主持人可對視訊溝通進行控制管理，參會者始終與主持人視角一致";
+"ConfModelEHSfieldOperationTitle" = "EHS現場作業";
+"ConfModelEHSfieldOperationDetail" = "管理人員可通過音視訊交流對現場及作業人員進行監控管理，現場作業人員之間互相獨立，不能進行音視訊聯繫";
+// 新增提示語
+"UpdateTitleText" = "您的版本過低，請升級體驗最新版";
+"UpdateTitleYES" = "立即升級";
+"UpdateTitleNO" = "稍後";
+"ChangeCompanyErrorTitle" = "当前为该公司，不需要重复切换";
+"ChangeCompanyTitle" = "公司";
+"AllAlertTitleNetWork" = "網絡未連接，請檢查您的網絡以及相關配置";
+"AllNetWorkWIFITitle" = "Wifi已開啟";
+"AllNetWorkWLANTitle" = "您現在使用運營商網絡，注意流量費用";
+"AllNetWorkNONETitle" = "網絡不可用，請檢查網絡";
+"AllNetWorkUNKOWNTitle" = "未知網絡";
+"AddMemberChooseTheRole" = "請選擇角色";
+
+// 會議設置
+"ConfSettingSharpnessTitle" = "視訊清晰度";
+"ConfSettingSharpnessSpeed" = "極速";
+"ConfSettingSharpnessSmooth" = "流暢";
+"ConfSettingSharpnessClear" = "清晰";
+"ConfSettingSharpnessHD" = "高清";
+"ConfSettingSharpnessBluelight" = "藍光";
+
+// 第三方登入
+"ThirdLoginContactPhoneTitle" = "綁定手機號";
+"ServceSettingSuccess" = "設置成功，回傳頁面後生效";
+"ThirdLoginOtherTitle" = "其他方式登入";
+"ThirdLoginCancleTitle" = "您取消了登入";
+"ThirdLoginFailTitle" = "登入失敗";
+"ThirdLoginNoWechatTitle" = "您沒有安裝微信客戶端";
+
+// SIMAddFromAdressViewController
+"AddFromAdressTitle" = "選擇員工";
+"AddFromIMAdressTitle" = "邀請聯繫人";
+"AddFromAdressAreadyChoose" = "已選擇";
+// 新登入
+"NewLogChooseLanguage" = "選擇語言";
+"NewLogCountryTitle" = "國家/地區";
+// 會議文件
+"ConfDocAdd" = "增加會議文件";
+"ConfDocTitle" = "會議文件";
+"ConfDocManagerTitle" = "文檔管理";
+// app全局设置
+"AppAllSetLanguage" = "使用語言";
+"AppAllSetLocalServerAlert" = "您尚未設置服務器";
+"AppAllSetLocalServerAlertDetail" = "請點擊設置Local Server設置您的服務器";
+"AppAllSetOverseaServer" = "使用Cloud Server";
+"AppAllSetOverseaServerDetail" = "開啟Cloud Server可進行選擇呼入國家或地區，關閉需進行設置Local Server";
+"AppAllSetServer" = "設置Local Server";
+"AppAllSetLocation" = "默認呼入國家或地區";
+// 消息新的IM
+"IMNewChatTitle" = "消息";
+"IMNewChatingTitle" = "連接中...";
+"IMNewNoChatTitle" = "消息(未連接)";
+"IMNewChatOtherOneTitle" = "相冊";
+"IMNewChatOtherTwoTitle" = "拍攝";
+"IMNewChatOtherThreeTitle" = "視頻";
+"IMNewChatOtherFourTitle" = "文件";
+"IMNewChatOtherFiveTitle" = "發送位置";
+"IMDateAM" = "上午";
+"IMDatePM" = "下午";
+"IMDateSun" = "星期日";
+"IMDateMon" = "星期一";
+"IMDateTus" = "星期二";
+"IMDateWen" = "星期三";
+"IMDateThur" = "星期四";
+"IMDateFri" = "星期五";
+"IMDateSat" = "星期六";
+"IMConverseListPic" = "[圖片]";
+"IMConverseListVio" = "[語音]";
+"IMConverseListVid" = "[視頻]";
+"IMConverseListEmo" = "[動畫表情]";
+"IMConverseListDoc" = "[文件]";
+"IMConverseListLoc" = "[位置]";
+"IMConverseListCao" = "[草稿]";
+"IMChatVoiceBtnPut" = "按住說話";
+"IMChatVoiceBtnOff" = "鬆開結束";
+"IMChatVoiceBtnCancel" = "上拉取消";
+"IMChatGesUP" = "手指上滑，取消發送";
+"IMChatGesRelease" = "鬆開手指，取消發送";
+"IMChatGesTooShort" = "說話時間太短";
+"IMChatGesTooLong" = "說話時間太長";
+
+"CloudSpaceTitle" = "雲空間";
+"CloudSpaceDocTitle" = "會議文件";
+"CloudSpaceMinutesTitle" = "會議紀要";
+"CloudSpaceTranslateTitle" = "智能翻譯";
+"CloudSpaceVideoTitle" = "錄像";
+"CloudSpaceBookTitle" = "會議室預定";
+"ConfModesLiveTitle" = "直播會議";
+"ConfModesIntercomTitle" = "對講機模式";
+"ConfModesOptionsTitle" = "可選";
+"ConfModesOptionsExplainContent" = "豐富的會議模式（自由討論會議、網絡廣播會議、網絡研討會等），適用於多種應用場景，實現高效溝通協作，節約溝通成本。";
+
+"MainPageBottomTitle" = "特别说明：如您需要使用电脑，请到开会宝网站\n下载PC客户端软件";
+"MainPageBottomButtonOne" = "邀請紅包";
+"MainPageBottomButtonTwo" = "計劃定價";
+"WellBeingTitle" = "會員福利";
+"WellBeingBottomTitle" = "開通會議計劃";
+"WellBeingButtonTitle" = "立即查看 >";
+
+"MainPageTeachModeTitle" = "在线教学";
+"MainPageTelemedicineTitle" = "遠程醫療";
+"MainPageOnlineMedicalTitle" = "在線醫療";
+"MainPageFieldOperationTitle" = "現場作業";
+"TeachModeLanguageTitle" = "語文課";
+"TeachModeMathTitle" = "數學課";
+"TeachModeEnglishTitle" = "英語課";
+"TeachModePianoTitle" = "鋼琴課";
+"TeachModePhysicalTitle" = "物理課";
+"TeachModeChemistryTitle" = "化學課";
+
+"SInviteFriends" = "邀請好友";
+"SLearningCentre" = "學習中心";
+"VideoMainPageTitle" = "視頻主頁";
+"VMP_Interactive" = "互動直播";
+"ShareFromAdressBookTitle" = "邀请好友入会";
+"SConfDocumentCloud" = "雲盤";
+"MineRedEnvelopeTitle" = "我的紅包";
+"MineBalanceTitle" = "我的餘額";
+"MineRedEnvelopeGetTitle" = "獲取紅包";
+"MineBalanceGetTitle" = "去充值";
+
+"MMessEditConf_class" = "课堂";
+"MMessSupportID_class" = "教室ID";
+"MMessTimeLength_class" = "课时";
+"MMessTimeExplain_class" = "上课说明";
+"MMessTimeStart_class" = "开始上课";
+"ShareConfInviteOnePart_class" = "%@ 邀请您参加%@\n课程主题：%@\n课程开始时间：%@\n邀请人：%@\n\n点击链接直接加入课程：\n %@ ";
+"ShareConfInviteOnePart_classWechat" = "课程主题：%@\n课程开始时间：%@\n邀请人：%@\n\n点击链接直接加入课程：\n %@ ";
+"MArrangeConfIS_class" = "的课堂";
+"MArrangePSW_class" = "教室密码";
+"ConfModeTitle_class" = "课堂模式";
+"ConfDocTitle_class" = "课程文档";
+
+"SettingLogOutCellTitle" = "注销账号";
+"SettingLogOutCellDetail" = "注销后无法恢复";
+"SettingLogOutCellContent" = "账号被注销后，相关身份信息及相关权益、交易记录等将会被清空，无法找回，确定注销账号吗？";
+"KHBPrivateAgreementTitle" = "加入会议即为您已同意%@和%@";
+
+"MainPageMoreLanguageTitle" = "国际会议";
+"ServiceCenterTitle" = "服务中心";
+"ServiceCenterDetailTitle" = "产品服务";

@@ -1,0 +1,36 @@
+platform :ios, '9.0'
+
+target 'Kaihuibao' do
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'Mantle','~> 2.1.0'
+  pod 'MBProgressHUD'
+  pod 'SDAutoLayout'
+  pod 'MJRefresh'
+  pod 'AMap3DMap'
+  pod 'AMapLocation'
+  pod 'AMapSearch'
+  pod 'DZNEmptyDataSet'
+  pod 'Bugly'
+  pod 'FMDB'
+  pod 'mob_sharesdk'
+  pod 'mob_sharesdk/ShareSDKUI'
+  pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+  pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull'
+  pod 'mob_sharesdk/ShareSDKExtension'
+  pod 'MMLayout'
+  pod 'ReactiveObjC'
+  
+  use_frameworks!
+  pod 'Socket.IO-Client-Swift', '~> 15.0.0'
+  
+  target 'VideoBao'
+  target 'ClassBao'
+  target 'JianshenBao'
+  target 'XviewPrivate'
+  target 'OnZoomCM'
+  target 'MeeLike'
+
+end
+

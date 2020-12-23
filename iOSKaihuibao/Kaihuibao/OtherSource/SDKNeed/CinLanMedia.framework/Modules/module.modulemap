@@ -1,0 +1,6 @@
+framework module CinLanMedia {
+  umbrella header "CinLanMedia.h"
+
+  export *
+  module * { export * }
+}

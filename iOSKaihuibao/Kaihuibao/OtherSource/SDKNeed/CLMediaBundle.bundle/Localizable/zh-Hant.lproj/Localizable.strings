@@ -1,0 +1,227 @@
+//  Localizable.strings
+//  CinLanMedia
+//
+//  Created by 劉金豐 on 2018/9/7.
+//  Copyright c 2018年 Cilan. All rights reserved.
+
+// Character
+
+"CL_Me"									= "我";  // "我";
+"CL_YES"                              	= "是";
+"CL_NO"									= "否";
+"CL_ON"									= "開";
+"CL_OFF"								= "關";
+
+
+// Word
+
+"CL_Sure"								= "確定";
+"CL_Cancel"								= "取消";
+"CL_Open"								= "打開";
+"CL_Close"								= "關閉";
+"CL_Start"								= "開始";
+"CL_Stop"								= "停止";
+"CL_End"								= "結束";
+"CL_Remove"								= "移除";
+"CL_Loosen"								= "鬆開";
+"CL_Press"								= "按住";
+"CL_Hint"								= "提示";
+"CL_More"								= "更多";
+"CL_Success"							= "成功";
+"CL_Complete"							= "完成";
+"CL_Share"								= "共享";
+"CL_Mute"								= "靜音";
+"CL_Video"								= "視訊";
+"CL_Audio"								= "音訊";
+"CL_Screen"								= "螢幕";
+"CL_Picture"							= "照片";
+"CL_Whiteboard"							= "白板";
+"CL_Webpage"							= "網頁";
+"CL_Document"							= "文件";
+"CL_SMS"								= "短信";
+"CL_WeChat"								= "微信";
+"CL_Friends"							= "好友";
+"CL_All"								= "全體";
+"CL_Chat"								= "聊天";
+"CL_Caption"							= "字幕";
+"CL_Setting"							= "設置";
+"CL_Apply"								= "申請";
+"CL_Speak"								= "發言";
+"CL_Talk"								= "講話";
+"CL_Send"								= "發送";
+"CL_Invite"								= "邀請";
+"CL_Copy"								= "複製";
+"CL_Paste"								= "粘貼";
+"CL_Watch"								= "觀看";
+"CL_Listen"								= "收聽";
+"CL_Broadcast"							= "廣播";
+"CL_Leave"								= "離開";
+"CL_Set"								= "設為";
+"CL_Recover"							= "收回";
+"CL_Relieve"							= "解除";
+"CL_Keep"								= "保持";
+"CL_Speed"								= "極速";
+"CL_Fluency"							= "流暢";
+"CL_Distinct"							= "清晰";
+"CL_HighDefinition"						= "高清";
+"CL_BlueLight"							= "藍光";
+"CL_OriginalSound"						= "原聲";
+"CL_PassBack"							= "回傳";
+"CL_Receiver"							= "聽筒";
+"CL_Translation"						= "翻譯";
+"CL_Conference"							= "會議";
+"CL_Password"							= "密碼";
+"CL_Again"								= "再次";
+"CL_Rresult"							= "結果";
+"CL_Audit"								= "審核";
+"CL_RaiseHand"                          = "舉手";
+"CL_Focus"                              = "焦點";
+"CL_PutHand"                            = "放下手";
+"CL_Auditing"							= "審核中";
+"CL_Speaker"							= "揚聲器";
+"CL_MachineSound"						= "機讀音";
+"CL_Microphone"							= "麥克風";
+"CL_Camera"								= "攝影鏡頭";
+"CL_Creator"							= "新增者";
+"CL_Host"								= "主持人";
+"CL_Participator"						= "參與者";
+"CL_Linkman"							= "聯繫人";
+"CL_Speaking"							= "正在講話";
+"CL_CoHost"								= "聯席主持人";
+"CL_InterpreterSound"                   = "译员声音";
+"CL_Yesterday"                          = "昨天";
+"CL_Mirror"                             = "鏡像";
+"CL_Disconnect"                         = "斷開";
+
+
+
+// Language
+
+"CL_SimplifiedChinese"                	= "簡體中文";
+"CL_English"                          	= "英語";
+"CL_Korean"                           	= "韓語";
+"CL_Japanese"                         	= "日語";
+"CL_ArabicLanguage"                   	= "阿拉伯語";
+"CL_Russian"                          	= "俄語";
+"CL_French"                           	= "法語";
+"CL_German"								= "德語";
+
+
+
+// Sentence
+
+"CL_RecentlyUsed"						= "最近已使用";
+"CL_AllLanguage"						= "所有語言";
+"CL_DisplayAtTop"						= "頂部顯示";
+"CL_DisplayAtBottom"					= "底部顯示";
+"CL_DisplayAtFullScreen"				= "全屏顯示";
+"CL_ShorthandSetting"					= "速記設置";
+"CL_TranslationSetting"					= "翻譯設置";
+"CL_VideoResolution"					= "視訊清晰度";
+"CL_RoomLock"                           = "會議鎖定";
+"CL_ShareLock"                          = "允许全体参会者共享";
+"CL_ShareOverwriteLock"                 = "共享时允许其他人同时共享";
+"CL_SetSoundSource"                     = "選擇會場聲音";
+"CL_SelectOriginLanguage"				= "選擇源語言";
+"CL_SelectTargetLanguage"				= "選擇目標語言";
+"CL_ModifyVideoResolution"				= "修改視訊清晰度";
+"CL_RelieveAllMute"						= "解除全體靜音";
+"CL_WhetherToLeavingTheMeeting"			= "是否離開會議?";
+"CL_WhetherToRelieveAllMute"			= "是否確認解除全體靜音?";
+"CL_WhetherToSaveShorthandContent"		= "是否保存速記內容";
+"CL_WhetherToSaveTranslationContent"	= "是否保存翻譯記錄";
+"CL_WhetherToDisplayCaption"			= "字幕顯示";
+"CL_CaptionDisplayMode"					= "字幕顯示方式";
+"CL_CaptionFontSize"					= "選擇字體大小";
+"CL_ShareScreenTitle"					= "您正在共享螢幕";
+"CL_NoHaveAccess"						= "您沒有權限執行該操作";
+"CL_CannotDisableMute"					= "主持人已將全體靜音, 您無法自我解除靜音";
+"CL_HostLockShare"						= "主持人鎖定了參與人共享權限";
+"CL_CannotOverwriteShare"				= "他人正在共享, 此時您將無法進行共享";
+"CL_SharedOverwriteHints"				= "這將停止別人的共享, 是否繼續?";
+"CL_YourMicrophoneIsOff"				= "您的麥克風已關閉";
+"CL_YourMicrophoneIsOn"					= "您的麥克風已打開";
+"CL_TheOhtersAreTalking"				= "其他人正在講話";
+"CL_YourVideoHasBeenStoped"				= "您的視訊已被停止";
+"CL_YouHaveBecomeTheHost"				= "您已成為主持人";
+"CL_YouHaveBecomeTheCoHost"				= "您已成為聯席主持人";
+"CL_JoinedTheMeeting"					= "加入了會議室";			
+"CL_YouStopedScreenShare"				= "您停止了螢幕共享";
+"CL_YourScreenShareHasBeenClosed"		= "您的螢幕共享被關閉";
+"CL_PasswordNotEmpty"					= "密碼不能為空";
+"CL_PleaseEnterURL"						= "請輸入網址";
+"CL_URLNotEmpty"						= "網址不能為空";
+"CL_PleaseEnterCorrectURL"				= "請輸入正確的網址";
+"CL_AllowUserRelieveMute"				= "允許參與者解除靜音";
+"CL_AllUserWillBeMuted"					= "所有參與者將被靜音";
+
+"CL_UseHDVideo"                         = "啟動高清視頻";
+"CL_UseH265Video"                       = "啟動H.265高清視頻";
+"CL_VideoFitType"                       = "啟動填充顯示視頻";
+"CL_UseMirrorVideo"                     = "啟動鏡像視頻";
+
+"CL_MulComAndShorthand"                 = "多語同傳及速記";
+"CL_ChineseConfShorthand"               = "AI中文會議速記";
+"CL_RecongAndTranslation"               = "AI識別翻譯";
+"CL_AddMeetingDoc"                      = "添加會議文件";
+"CL_AddFileToCloudDisk"                 = "添加文件到雲盤";
+"CL_ChooseYorLanguage"                  = "選擇你的語言";
+"CL_DisplaysYourLanguageText"           = "顯示你的語言文本";
+"CL_DisplaysUserTranText"               = "顯示參與者翻譯文本";
+"CL_DisplaysUserOriginText"             = "顯示參與者原始文本";
+"CL_CaptionSetting"                     = "字幕設置";
+"CL_ChooseTranLanguage"                 = "選擇你要翻譯的語言";
+"CL_DisplayLanguageText"                = "顯示語言文本";
+"CL_DisplayTranslatedText"              = "顯示翻譯文本";
+"CL_WhetherToEndLocalTranslation"       = "是否確認結束本地翻譯";
+"CL_WhetherToEndChineseShorthand"       = "是否確認結束中文速記";
+"CL_WhetherToEndMulCommunication"       = "是否確認結束多語同傳";
+
+"CL_CameraOff"                          = "攝像頭已關閉";
+"CL_YouStopedWatchingVideo"             = "您停止觀看了次錄視頻";
+"CL_HostOffMLST"                        = "主持人已關閉多語同傳";
+"CL_HostOffCS"                          = "主持人已關閉中文速記";
+"CL_TempTurnOffCamera"                  = "臨時關閉攝像頭";
+"CL_ReturnDesktopAndStartSharing"       = "請返回到手機桌面, 開始共享";
+"CL_ConfServerReconnectionFailed"       = "會議服務器重啟失敗";
+"CL_VoiceJoinViaDevice"                 = "通過設備語音加入";
+"CL_ConnectAudioAlertTitle"             = "為了聽到他人聲音請加入音頻";
+
+
+"CL_LockRoomDirection"                  = "不允許參會者加入";
+"CL_ShareLockDirection"                 = "关闭后, 只有主持人可以共享";
+"CL_ShareOverwriteLockDirection"        = "关闭后, 只有主持人可以在其他人共享同时共享";
+"CL_LockRoomTips"						= "是否確定鎖定房間, 鎖定後將不再有人能夠進入(新增者除外)";
+"CL_ScreenSharingTips"					= "螢幕共享功能只支援在iOS12.0以上的系統上使用! 請升級您的設備系統!=>\n 設置->通用->軟體更新";
+"CL_MuteModeSpeakTips"					= "當前為禁言模式, 不能打開麥克風發言";
+"CL_TheHostMuteAllUsersTips"			= "主持人已將所有參與者靜音";
+"CL_TheHostRequestOpenYourMic"			= "主持人想讓你開啟您的麥克風";
+"CL_ConfServerConnectionErrorTips"		= "會議伺服器連接錯誤";
+"CL_TheHostEndedTheMeetingTips"			= "主持人結束了本場會議!";
+
+
+
+"CL_SharedStateNotSwitchVideo"          = "共享狀態下, 不能切換視頻";
+
+"CL_ChatTextFieldPlaceholder"           = "點擊輸入聊天內容...";
+
+"CL_LocalTranStateOpenMLST"             = "主持人已開啟多語同傳, 您開啟的本地翻譯功能已自動關閉, 請進行相應設置並加入!";
+
+"CL_OpenMLSTAndSet"                     = "主持人已開啟多語同傳, 請進行相應設置並加入!";
+
+"CL_LocalTranStateOpenCS"               = "主持人已開啟中文速記, 您開啟的本地翻譯已自動關閉, 請進行相應設置並加入";
+
+"CL_OpenCSAndSet"                       = "主持人已開啟中文速記, 請進行相應設置並加入";
+
+"CL_AISoundNotListenUserAudio"          = "使用AI智能聲音時不能收聽用戶音頻!";
+
+
+
+
+
+
+
+
+
+
+

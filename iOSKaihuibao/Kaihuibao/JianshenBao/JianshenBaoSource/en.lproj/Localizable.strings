@@ -1,0 +1,884 @@
+/*
+ Localizable.strings
+ Kaihuibao
+ 
+ Created by mac126 on 2018/5/15.
+ Copyright © 2018年 Ferris. All rights reserved.
+ */
+
+
+// tabbar
+"TabBarMeetTitle" = "Main";
+"TabBarContantTitle" = "Contacts";
+"TabBarPublicTitle" = "Livings";
+"TabBarFindTitle" = "Find";
+"TabBarSetTitle" = "Mine";
+"TabBarMessageTitle" = "Message";
+"TabBarConfTitle" = "Meet";
+
+// navbar
+"NavBackCancelTitle" = "Cancel";
+"NavBackComplete" = "Done";
+"NavBackSave" = "Save";
+"NavBackSend" = "Send";
+"NavBackEdit" = "Edit";
+"NavBackCreate" = "Create";
+"NavBackInvite" = "Invite";
+"NavBackADD" = "Add";
+
+// 弹出框的按钮文字
+"AlertCOk" = "OK";
+"AlertCSet" = "Setting";
+"AlertCCancel" = "Cancel";
+"AlertCSave" = "Save";
+"AlertCKnow" = "Know";
+"AlertCSaveAndAdd" = "Save and continue adding";
+"AlertCShareSuccess" = "Share Success";
+"AlertCShareFail" = "Share Fail";
+"AlertCBack" = "back";
+
+// 弹出选择器
+"PickViewOkJoin" = "OK  ";
+"PickViewCancelJoin" = "  Cancel";
+"PickViewCleanAllCid" = "  Clean";
+"PickViewDone" = "Done  ";
+
+// 入会议回调的提示
+"ERR_NOERROR" = "Enter Gym Successful";
+"ERR_CONF_NOTEXIST" = "Gym does not exist";
+"ERR_CONF_INVALIDPASSWORD" = "Account or password error";
+"ERR_CONF_ALREADYLOCK" = "The Gym is locked";
+"ERR_CONF_KICK" = "invited out of the Gym";
+"ERR_HAS_NOT_LOGIN" = "You are not logged in";
+"ERR_HTTP_TIMEOUT" = "Request timed out";
+"ERR_CONF_OTHER" = "Failed to enter";
+"ERR_CONF_NoConfIDRequest" = "Can not join, please check the network and other related settings";
+"ERR_CONF_NoPSWRequest" = "Please refresh the page, in the Gym";
+"ERR_CONF_NoLoginConfServer" = "You are not logged in";
+
+
+// 网络请求回调提示文字
+"NETWORK_searchSeverFail" = "Failed to query server!";
+"ERROR_WRONG_PASSWORD" = "wrong password";
+"ERROR_WRONG_PASSWORD2" = "Original password error";
+"ERROR_USER_NOT_FOUND" = "This user is not registered";
+"ERROR_INVALID_FORM" = "wrong phone number/account";
+"ERROR_INVALID_FORM2" = "registration failed!";
+"ERROR_INVALID_FORM3" = "Missing data";
+"ERROR_PERMISSION_DENIED" = "No authorized";
+"NETWORK_error_other" = "Request error!";
+"NETWORK_error_theNet" = "Request error!";
+"ERROR_WRONG_VALIDATION_CODE" = "Verification code error!";
+"ERROR_INVALID_DATA" = "Your are already registered";
+"ERROR_INVALID_DATA2" = "Form error!";
+"ERROR_INVALID_DATA3" = "Cannot be transferred";
+"ERROR_INVALID_DATA4" = "Can not add yourself";
+"ERROR_HAS_NOT_LOGIN" = "You are not logged in";
+"ERROR_DELEGATE_fail" = "Delete failed!";
+"ERROR_Create_fail" = "Create failed!";
+"ERROR_Edit_success" = "Successfully modified";
+"ERROR_AddConf_success" = "Arranged success";
+"ERROR_AddConf_fail" = "Failed to schedule";
+"ERROR_NAME_length_fail" = "Maximum length of name";
+"ERROR_PSW_length_fail" = "Length no more than 6 digits";
+"ERROR_Live_Public_UP" = "Public live submitted for review";
+"ERROR_NowHavent_List" = "No current list";
+"ERROR_NowHavent_Function" = "No current Function";
+"ERROR_NowHavent_TransManager" = "Cannot transfer admin";
+"ERROR_YAlready_themember" = "You have joined this";
+"ERROR_Join_success" = "Joined successfully";
+"ERROR_Join_fail" = "Failed to joint";
+"ERROR_NotNow_Manager" = "Cannot be transferred";
+
+// SIMNewEnterConfTool.m 封装入会的类
+"EnterPutinPSW" = "Password";
+"EnterPSWPlaceHolder" = "Password";
+"Enter_psw_putinRight" = "Wrong password";
+"ENTER_NETWORK_NO_CONNECT" = "No Network";
+"Enter_Info_Video" = "Camera permission is not turned on";
+"Enter_Info_Video_None" = "The camera permission is not enabled. Please enter the system [Settings]> [Privacy]> [Camera] to open the switch and turn on the camera function.";
+
+// SIMEntranceViewController.m
+"KHBLogin" = "Sign In";
+"KHBRegister" = "Register";
+"JoinMeeting" = "Join a Gym";
+"SetSeverceAdress" = "Set server";
+"OnlineLearn" = "Sign In";
+"InputYourMeetName" = "Please enter your nickname";
+"PlaceHolderInputYourMeetName" = "Nickname must be entered";
+
+// SIMLoginViewController.m
+"KHBForgetPassword" = "Forgot";
+"KHBGoRegister" = "Go to register";
+"KHBAccount" = "Phone/Account Number";
+"KHBPassword" = "Password";
+"KHBAccountPlaceHolder" = "Account Number";
+"KHBPasswordPlaceHolder" = "Password";
+"KHBPhoneNumPlaceHolder" = "Phone Number";
+"KHBNickNamePlaceHolder" = "Nick Name";
+"KHBCodePlaceHolder" = "Verification Code";
+"KHBPSWLengthPlaceHolder" = "Please enter 6-18 digits";
+"KHBPSWRightPlaceHolder" = "Confirm Password";
+"JSBPSWRightPlaceHolder" = "Enter Again";
+"KHBNextStepBtn" = "Next Step";
+"KHBImmediateLearnBtn" = "Experience Now";
+"KHBcodeReObtain" = "Resend Code";
+"KHBcodeReObtainMinute" = "Reacquire";
+"KHBcodeObtainClick" = "Send Code";
+"KHBgoLoginClick" = "Go to Sign In";
+"KHBagreeAndReadClick" = "Read and Agree";
+"KHBseverceAndListPrivateClick" = "UserPrivacy";
+"KHBseverceAndListClick" = "Terms of Service";
+"JSBNextConfirmClick" = "OK";
+
+// 注册提示
+"ERROR_WRONG_PhoneNumber" = "Wrong phone number";
+"ERROR_PhoneNumber_NOT_FOUND" = "this is not registered";
+"ERROR_PhoneNumber_Aready_Regist" = "this is registered";
+"ERROR_Please_puinCode" = "Please enter verification code";
+"ERROR_failsend_Code" = "Failed to send verification code";
+"ERROR_alreadysend_Code" = "Verification code sent, check";
+"ERROR_six_psw" = "Please enter at least 6 passwords";
+"ERROR_kind_psw" = "Please enter numbers, letters or a combination of the two";
+"ERROR_re_psw" = "Please enter the Gym password";
+"ERROR_twowrong_psw" = "Confirm password and new password do not match, please re-enter";
+"ERROR_repsw_success" = "Success Modified";
+"ERROR_regist_success" = "Registration Success";
+
+// 设置服务器
+"KHBSettingService" = "Set Server";
+"KHBReDefaultSer" = "Restore Defaults";
+"KHBReDefaultSerExplain" = "After changing the server address, click on the “alter” button to take effect after click “back”.";
+"KHBAlterBtn" = "Alter";
+"KHBPutinAdress" = "Address:";
+"KHBPutinPort" = "Port:";
+"ERROR_WRONG_AdressAndPort" = "Wrong server address/port";
+
+// 加入会议 ------
+"MJoinTheMeeting" = "Join a Gym";
+"MJoinTheLiving" = "Join a Living";
+"MGoBackLookTheLiving" = "Live List";
+"MPutinConfIDPlaceHolderID" = "Gym ID";
+"MPutinConfIDPlaceHolderRoom" = "Gym";
+"MPutinLiveIDPlaceHolder" = "Live ID";
+"MJoinPswPlaceHolder" = "Password";
+"MJoinLivePswPlaceHolder" = "Password";
+"MJoinNamePlaceHolder" = "Nickname Is Required";
+"MJoinMeetingChoose" = "JOIN OPTIONS";
+"MJoinTakeOnVoiceSwitch" = "Don't Connect To Audio";
+"MJoinTakeOnVideoSwitch" = "Turn Off My Video";
+"MJoinLiveTakeOnVoiceSwitch" = "Don't Connect To Audio";
+"MJoinLiveTakeOnVideoSwitch" = "Turn Off My Video";
+"MJoinMeetingExplainText" = "If it is not have a password, you can not enter the password.";
+"MJoinMeetingExplainText2" = "If you received an invitation link, click it again to join it";
+"MJoinMeetingTypeRoom" = "Use Gym";
+"MJoinMeetingTypeID" = "Use Gym ID";
+
+// 编辑个人会议室
+"MEditMineMeeting" = "Edit";
+"MEMineConfID" = "Personal Gym ID";
+"MEMineConfName" = "Gym Name";
+"MEMineConfPSW" = "Gym Password";
+"MEMineLiveID" = "Personal LivingRoom ID";
+"MEMineLiveName" = "LivingRoom Name";
+"MEMineLivePSW" = "LivingRoom Password";
+"MEMineConfMainPSW" = "Host Cipher";
+"ME_Setting_Success" = "Setup Success";
+"ME_Setting_Fail" = "Setup Failed";
+"MEMineConfPSWLength" = "Password no more than 6";
+"MEMineConfNameLength" = "The length is not more than 32 bits";
+"MEMineConfName" = "Gym Name";
+"MEMineConfNamePlaceHolder" = "Gym Name";
+"MEMineConfNameExplain" = "Room name is cannot be empty";
+
+// 会议信息
+"MMessEdit" = "Info";
+"MMessSupportName" = "Theme";
+"MMessSupportID" = "Gym ID";
+"MMessSupportExplain" = "Gym Note";
+"MMessSupportINConf" = "Join";
+"MMessSupportInAdd" = "Add the Inviting";
+"MMessEditLive" = "Live";
+"MMessEditConf" = "Gym";
+"MMessEditConfOne" = "video";
+"MMessEditLiveTitle" = "Edit Live";
+"MMessEditConfTitle" = "Edit Gym";
+"MMessEditTime" = "Time";
+"MMessTimeRepeat" = "Period ";
+"MMessTimeLength" = " Duration";
+"MMessTimeExplain" = " Note";
+"MMessTimeStart" = "Start ";
+"MMessShareLive" = "Share Live";
+"MMessDelegate" = "Delete ";
+
+// 安排编辑会议
+"MArrangeConf" = "Schedule Gym";
+"MArrangeNewLive" = "New Live";
+"MArrangeConfRepeat" = "Repeat";
+"MArrangeConfRepeat_None" = "None";
+"MArrangeConfRepeat_Never" = "Never";
+"MArrangeConfRepeat_Day" = "Every Day";
+"MArrangeConfRepeat_Week" = "Every Week";
+"MArrangeConfRepeat_TwoWeek" = "Every 2 Week";
+"MArrangeConfRepeat_Month" = "Every Month";
+"MArrangeConfExplain" = " Note";
+"MArrangeConfIS" = "'s Gym";
+"MArrangeConfISLIVE" = "'s living";
+"MArrangeStarTime" = "Start Time";
+"MArrangeStarChoose" = "please choose";
+"MArrangePSW" = " Password";
+"MArrangeLiveRealTime" = "Living";
+"MArrangeLivePublicTime" = "Public living";
+
+"MArrangeConfExplainTest" = "Set your Gym description here。";
+
+// 首页
+"MMainMeetingHeaderTitleING" = "On going Gym";
+"MMainMeetingHeaderTitleREP" = "Periodic Gym";
+"MMainLiveHeaderTitleING" = "On going living";
+"MMainLiveHeaderTitleREP" = "Periodic living";
+"MMainLiveNoneTitle" = "No Live Broadcast";
+"MMainSquareNoneTitle" = "No Broadcast Here";
+"MMainLiveNoneTitleTest" = "Please use the computer client or mobile app to create a new live";
+
+"MMainConfStartBtn" = "Start";
+"MMainConfStartNewBtn" = "Start Gym";
+"MMainLiveStartNewBtn" = "Start Living";
+"MMainConfSendBtn" = "Send Invitations";
+"MMainConnectServerFail" = "Failed To Connect To The Gym Server";
+"MMainConfMineIDtitle" = "Personal Gym ID";
+"MMainConfLiveIDtitle" = "Personal LivingRoom ID";
+"MMainConfSendMineIDtitle" = "Send a Gym invitation";
+"MMainLiveSendMineIDtitle" = "Send a living invitation";
+"MMainConfSupport" = "Support Center";
+"MMainConfVideoSupport" = "Video Consult";
+"MMainConfHeaderJoin" = "Join";
+"MMainConfHeaderSchedule" = "Schedule";
+"MMainConfHeaderLive" = "New Live";
+"MMainConfHeaderStartAMeeting" = "Start";
+"MMainConfHeaderAdress" = "Square";
+"MMainConfHeaderMineConf" = "Personal";
+"MMainConfRepsonAConf" = "Initiate Gym";
+"MMainConfRepsonALive" = "Launch Live";
+"MMineConftitle" = "Personal Gym";
+"MMainMoreAppTitle" = "More";
+"MMainMoreDeviceTitle" = "More Device";
+
+// 首页会议的企业通讯录
+"ContantCompanyContant" = "Company Addressbook";
+"CAddCompanyMember" = "Add Member...";
+"CAddCompanyFromAdress" = "Phone Addressbook";
+"CAddCompanyBYHand" = "Enter the PhoneNumber";
+"CAddCompanyBYWeChat" = "WeChat Sharing";
+
+// 通讯录模块
+"ContantManAdress" = "Contacts";
+"ContantDevice" = "Device";
+"ContantGroup" = "Groups";
+"ContantAddOtherMan" = "Add External Contacts";
+"CContactOthersMan" = "External Contacts";
+"CContactCustomerManage" = "Customer Manage";
+"CContactOrgan" = "Organization";
+"CContactMineAdress" = "Contacts";
+"CContactPhoneContant" = "Phone Contacts";
+"ContantAddCompany" = "Add Company Addressbook";
+"CContactCompany" = "Company Addressbook";
+"ContantDeviceNameH323" = "H.323/SIP Devices";
+"CAddDevice" = "Add Device...";
+"CAddDeviceNavTitle" = "Add Device";
+"CAddDevice_HeaderChoose" = "Select Gym Room Type";
+"CAddDevice_HeaderIP" = "IP Address";
+"CAddDevice_HeaderYourName" = "Device Name";
+"CAddDevice_HeaderIPTitle" = "IP Address";
+"CAddDevice_HeaderMineDevice" = "My Device";
+"CAddDevice_LengthText" = "Enter IP Address or E.164 Number";
+"CAddDevice_CreateSuccess" = "Created Success";
+
+// 地图
+"CCMapTitle" = "Map Position";
+"CCMapTitleAbbreviation" = "Map";
+"CCMapTitleDetail" = "Gym ID";
+
+// 群组
+"ContantGroup_mine" = "My Group";
+"ContantGroup_company" = "Company Group";
+"ContantGroup_Joined" = "Join The Group";
+"ContantGroup_NewCreate" = "New Group";
+"CGInviteMember" = "Inviting Members";
+"CGChooseCont" = "Select Contact";
+"CGDelegateCont" = "Remove Member";
+"CGAddMember" = "Add";
+"CGDeleteMember" = "Delete";
+"CGName" = "Group Name";
+"CGJustCompanyMan" = "Only Members";
+"CGNamePlaceHolder" = "Click Edit";
+"CGDeleteAndLeave" = "Delete And Exit";
+"CGVideoClick" = "Video Call";
+"CGVoiceClick" = "Voice Call";
+"CGMessageClick" = "Send Message";
+"CGShareScreenClick" = "Share Screen";
+"CGInviteRegistClick" = "Invite Register";
+"CGName_not_empty" = "Name Cannot Be Empty";
+"CGTransCroupManager" = "Transfer Group Manager";
+"CGLeaveCroup" = "Leave This group";
+"CGDeleteContinue" = "Continue To Delete";
+"CGDeleteCroupMess" = "You will permanently remove all the discussion group information. These will not be restored after the operation.";
+"CGChangeNameSave" = "Do you want to save group name?";
+"CGNewManger" = "Assign New Administrator";
+"CGSearchBarPlaceHolder" = "Search";
+"CGSearchResult" = "Search Results";
+"CGSearchBarTitle" = "search";
+"CGOtherMamberNothave" = "No Other People";
+"CGGroupNothave" = "No Organization Group";
+
+// 联系人
+"CCContantMainName" = "AddressBook";
+"CCAddContant" = "Add Contacts...";
+"CCAddContantLittle" = "Add Contacts";
+"CCAddMember" = "Add Member...";
+"CCAddTheMemberTitle" = "Add Member";
+"CCAllMemberGroup" = "All Member";
+"CCAddTheFriendsTitle" = "Add Friend";
+"CCAddNewFriends" = "Add a New Friend";
+"CCAddMember_Success" = "Added Success";
+"CCAddMember_AlreadyHave" = "The Contact Already Exists";
+"CCInfoPlistAdress" = "Open Addressbook Permissions";
+"CCInfoPlistAdressTEST" = "Please go to the system [Settings] - [Kaihuibao] to turn on the switch and allow access to the address book";
+"CCAdressPostOnServer" = "Quickly establish Gym connections";
+"CCAdressPostOnServerTEST" = "We will encrypt and upload the phone address book to the Gym server to match and recommend contacts. (Uploading contacts is only used for matching, no data will be saved, and will not be used for other purposes) ";
+"CCSendFriend_Success" = "Send Friend Invitation Success";
+"CCSendMess_Success" = "Send SMS Invitation Success";
+"CCSendInviteSend_Success" = "Success Sent";
+"CCOwenMess" = "Personal Information";
+"CCNewCustomJoin" = "Make an Appointment";
+"CCOwenMess_PHONE" = "Phone Number";
+"CCOwenMess_TELE" = "Telephone";
+"CCOwenMess_Role" = "Character";
+"CCOwenMess_Devel" = "Department";
+"CCOwenMess_Email" = "Mail";
+"CCOwenMess_Company" = "Company";
+"CCOwenMess_ConfID" = "Gym ID";
+"CCCompanyMess" = "Company Information";
+"CCCreateNewContant" = "Create New Contact";
+"CCCreateToNowContant" = "Add to Existing contact";
+"CCDeleteContant" = "Delete the Contact";
+"CCDeleteContant_success" = "Delete Successfully";
+"CCDeleteContant_notFriend" = "You Are not Contact Relationship";
+
+"CCFriend_Relation_sended" = "Sended";
+"CCFriend_Relation_Added" = "Added";
+"CCFriend_Relation_Registed" = "Registered";
+"CCContantLeader" = "Admin";
+// 添加成员SIMAccountCompanyViewController
+"CCMemberAddPage" = "Add Member";
+"CCMemberAddPage_boy" = "boy";
+"CCMemberAddPage_girl" = "girl";
+"CCMemberAddPage_sex" = "Sex";
+"CCMemberAddPage_phone" = "Phone";
+"CCMemberAddPage_Choose" = "Choose";
+"CCMemberAddPage_Request" = "Must";
+"CCMemberAddPage_explain" = "Automatically send invitation notifications after saving";
+"CCMemberAddPage_Sign" = "Company member name is required";
+
+// 点对点呼叫
+"CCallEND" = "Call Ended";
+"CCallCancel" = "Call Cancelled";
+"CCallOtherCut" = "Call Hunged Up";
+"CCallAccpect" = "Answer";
+"CCallConnectTimeOut" = "Connection Timed Out";
+"CCallTransVideo" = "Switch To Video Call";
+"CCallTransVoice" = "Switch To Voice Call";
+"CCallInviteYCall" = "Invite You To Video Call...";
+"CCallWaiting" = "Waiting For Accept ...";
+"CCallNonePhone" = "Phone May Not Be Around";
+"CConfInviteTypeRefuse" = "The Opponent Has Rejected Your Request";
+"CConfInviteTypeNoLine" = "The Other Is Not Online";
+"CConfInviteTypeTimeout" = "No Answer";
+"CConfInviteTypeOther" = "Unknown Mistake";
+"CConfInviteTypeBusy" = "The Other Party Is Busy";
+"CConfInviteType_Others" = "Call failed";
+
+// 发现模块
+"FindMainTitle" = "Find";
+
+/*
+ 设置模块
+ */
+// 设置首页
+"SettingMainTitle" = "Settings";
+"SConfPlan" = "Buy Now";
+"SBuyOrder" = "Purchase History";
+"SMyWallet" = "My Wallet";
+"SMyServer" = "My Service";
+"SIntelligentOffice" = "Intelligent Office";
+"SAccountMess" = "Account Information";
+"SSystemNotifiy" = "System Notification";
+"SConfSetting" = "Gym Settings";
+"SConfDocument" = "Gym Document";
+"SMessageNotify" = "Message Notification";
+"SLanguages" = "Multilingual Environment";
+"SAbort" = "About";
+"SAbortUSConnect" = "Contact Us";
+// 系统通知
+"SSystemNotifiyNone" = "No System Notification";
+// 账户信息
+"SAccountName" = "Account Name";
+"SAccountRole" = "Account Role";
+"SAccountType" = "Account Type";
+"SAccountLevelHigh" = "High Class User";
+"SAccountLevelNormal" = "General User";
+"SAccountPossesser" = "Owner";
+// 会议设置
+"SAutoOnVoice" = "Auto Connect Speech";
+"SAutoSilent" = "Auto Microphone Mute";
+"SAutoOnCamera" = "Auto Open Camera";
+"SShowConfTime" = "Show Length of Gym";
+"SShowBeauty" = "Open Beauty of Beauty";
+// 消息通知
+"STakeOnMessNotify" = "Open Message Notification";
+"STakeOnVibrate" = "Turn On Vibration";
+"STakeOnVoice" = "Turn On Sound";
+"SShowLeaveMan" = "Display offline Contacts";
+// 关于
+"SShowAppVersion" = "Version";
+"SSendFeed" = "Send Feedback";
+"SRecommenApp" = "Tell Others About kaihuibao";
+"SInviteWebSite" = "Visit the Official Website";
+"SSendStarToUS" = "Rate kaihuibao in the App Store";
+"SSendFeedPage" = "Feedback";
+"SSendFeedPageTest" = "We welcome any opinions, ideas, and suggestions on Gym treasures.";
+"SSendFeed_not_empty" = "Content can not be blank";
+"SSendFeed_success" = "Sent Success";
+// 我的资料
+"SMineData" = "My Profile";
+"SMineDataIcon" = "Profile Photo";
+"SMineDataName" = "Name";
+
+"SMineDataCompany" = "Company";
+"SMineDataPSW" = "Sign-In Password";
+"SMineDataConfID" = "Personal Gym ID";
+"SLogoutTheApp" = "Sign Out";
+"SAlreadyLogoutTheApp" = "Sign out?";
+"STakePhotos" = "Camera";
+"SChooseAtPicture" = "Select From Album";
+"Setting_Info_Picture" = "Photo is not turned on";
+"Setting_Info_PictureText" = "Access photo permission is not enabled, please enter the system [Settings]> [Privacy]> [Photo] to open the switch, open the photo album function";
+"Setting_Info_Camera" = "Camera is not turned on";
+"Setting_Info_CameraText" = "The camera permission is not enabled. Please enter the system [Settings]> [Privacy]> [Camera] to open the switch and turn on the camera function.";
+"Setting_NO_Camera" = "No Camera Detected";
+"SMineScreenName" = "Edit Name";
+"SNameNoEmptyPlaceHolder" = "Name(Can not be empty)";
+"SCompanyNoEmptyPlaceHolder" = "Company(Can not be empty)";
+"SSettingInfo" = "Write Profile";
+"SSettingInfo_company" = "Company";
+"SSettingInfo_post" = "Position";
+"SSettingInfo_count" = "Number of Participants";
+"SSettingInfo_TestOne" = "Improve information Start a video Gym immediately";
+"SSettingInfo_TestTwo" = "You can join Gym with mobile,PC and terminals";
+"SSettingInfo_name" = "Name";
+"SSettingInfo_Yourphone" = "Phone";
+"SSettingInfo_company" = "Company";
+"SSettingInfo_Remark" = "Remark";
+"SSettingInfo_RemarkPlaceHolder" = "Remark";
+"SSettingInfo_post" = "Position";
+"SSettingInfo_count" = "Number of Participants";
+"SChangePSW" = "Change the Password";
+"SChangePSW_OldPH" = "Old Password";
+"SChangePSW_NewPH" = "New Password";
+
+/*
+ 公开直播--以后可能去掉
+ */
+"PLivingTileNow" = "Broadcast";
+"PLivingTileWill" = "Delay";
+"PLivingTileDetail" = "Live Detail";
+"PLivingTileLookTheLive" = "Watch Live";
+
+/*
+ 分享内容
+ */
+"ShareInContant" = "SMS sharing";
+"ShareInBrowser" = "Browser opens";
+
+// 成员分享
+"ShareAddContantWECHAT" = "You have opened a Gym enterprise account and invited you to join the company";
+
+// abort分享app
+"MailSend" = "Send Email";
+"MailSendTest" = "Please go to set up your system email account.";
+"MailSendSubject" = "Invite you to use the Gym treasure";
+"AbortShareSendTest" = "I am using the Gym Bo Yun Gym App to register and send free cloud Gym rooms, hold multi-party video Gyms, and communicate effectively. Click on the link to download.";
+"MailSendCancel" = "You canceled sending mail";
+"MailSendSave" = "Email saved successfully";
+"MailSendSend" = "Mail sent successfully";
+"MailSendFail" = "Email failed, please resend";
+
+"MessageSend" = "Send Messages";
+"MessageSendTest" = "This device does not support sending SMS";
+"MessageSendCancel" = "You canceled sending a text message";
+"MessageSendSend" = "Mail sent success";
+"MessageSendFail" = "Failed to send the message. Please resend";
+"ShareToDepartMemberTitle" = "Share To Member";
+
+// adressviewcontroller  and resultviewcontroller
+"AdressShareSendTest" = "Powerful Word God, this video Gym is not simple, even after opening it has “welfare”！";
+
+// adressbookviewcontroller
+// 开会为1001
+"AdressBookShareTest" = "Invite you to download Umefit. 9.9 yuan per month, register to get 100 free video Gym, smart cloud Gym, multi-screen interactive, smart tablet...";
+"AdressBookShareMainTitle" = "Invite you to download Umefit Gym.";
+"AdressBookShareMainTest" = "9.9 yuan per month, register to get 100 free video Gym, smart cloud Gym, multi-screen interactive, smart tablet...";
+
+"AdressBookShareERROR" = "Clients who did not detect the sharing platform, please go to download and install";
+"NewAdressBookShareTitle" =  "I am using a Gym treasure to hold a video Gym, click %@%@ ，free download.";
+
+"WeChatSend" = "Wechat";
+"NewEmailSend" = "Email";
+"NewMessageSend" = "Message";
+"SaveToThePhotoAlbum" = "Save";
+"PaseboardToSend" = "Copy to Paseboard";
+"PaseboardSend" = "Copy Link";
+"PaseboardToSended" = "Copied to Paseboard";
+"ErweimaSendTitle" = "QR code";
+"ErweimaSendText" = "Long press to save the QR code";
+"ErweimaSendPicText" = "Scan and join the Gym";
+"ErweimaSendSuccessText" = "Saved to local, please view in album!";
+"MMailSendTest" = "Invited you to join a Gym";
+"MMessageWechatTitle" = "Invited you to join a";
+"MMessageWechatSubject" = "topic";
+"MMessageWechatContant" = "Can use mobile app, computer, video terminal to join";
+"MEmailSendSubject" = "Hello";
+"MEmailSendSelfConf" = "'s personal Gym room";
+
+"Image" = "Photo";
+"Video" = "Video";
+"Shoot" = "Shoot";
+"LocalFile" = "Local File";
+
+// 时间字符串
+"TimeToday" = "\'Today\'";
+"TimeTomorrow" = "\'Tomorrow\'";
+"TimeAfterTomorrow" = "\'The Day After Tomorrow\'";
+"TimeYearANDday" = "yyyy/MM/dd";
+"TimeMonthANDday" = "MM/dd";
+
+"TimeYesterdayAndTime" = "\'Yesterday\' HH:mm";
+"TimeTodayAndTime" = "\'Today\' HH:mm";
+"TimeTomorrowAndTime" = "\'Tomorrow\' HH:mm";
+"TimeAfterTomorrowAndTime" = "\'The Day After Tomorrow\' HH:mm";
+"TimeYearANDdayAndTime" = "yyyy/MM/dd HH:mm";
+
+"TimeYesterdayAndTimeList" = "\'Yesterday\'";
+"TimeYearANDdayAndTimeList" = "yyyy/MM/dd";
+
+"TimeTodayAM" = "\'Today PM\' hh:mm";
+"TimeTodayPM" = "\'Today PM\' hh:mm";
+"TimeTomorrowAM" = "\'Tomorrow AM\' hh:mm";
+"TimeTomorrowPM" = "\'Tomorrow PM\' hh:mm";
+"TimeAfterTomorrowAM" = "\'The Day After Tomorrow AM\' hh:mm";
+"TimeAfterTomorrowPM" = "\'The Day After Tomorrow PM\' hh:mm";
+"TimeYearANDdayAM" = "yyyy/MM/dd \'AM\' hh:mm";
+"TimeYearANDdayPM" = "yyyy/MM/dd \'PM\' hh:mm";
+
+"TimeAM" = "hh:mm \'AM\'";
+"TimePM" = "hh:mm \'PM\'";
+
+"TimeMinutes" = "Minute";
+"TimeHour" = "Hour";
+
+"TimeMinutesFormatter" = "\'Minute\'";
+"TimeHourFormatter" = "\'Hour\'";
+
+"TimeZoneText" = "en";
+
+// 支付界面
+"NPayBuyLiuLiang_TypeName" = "Pay Method";
+"NPayBuyLiuLiang_TypeWechat" = "Wechat";
+"NPayMainSeverce_titleOne" = "Gym";
+"NPayMainSeverce_titleOne_Man" = "attendee";
+"NPayMainSeverce_titleOne_Room" = "rooms";
+"NPayMainSeverce_titleThree" = "Video Service";
+"NPayMainSeverce_titleThree_Man" = "Host";
+"NPayMainS_lookThePlanText" = "View Plan";
+"NPayMainS_NowPlanText" = "Current";
+"NPayAlertViewsucess" = "Payment Successful";
+"NPayAlertViewfail" = "Payment Fail";
+"NPayAlertViewNoPayed" = "Unpaid";
+"NPayAlertViewCancel" = "Cancel";
+"NPayAlertViewfailDetail" = "Order payment failed";
+"NPayAlertViewname" = "Plan Name";
+"NPayAlertViewdate" = "Validity Period";
+"NPayAlertViewprice" = "Cost";
+"NPayAlertViewprice_all" = "Total Amount";
+"NPayMain_NextBnt" = "Buy Now";
+"NPayMain_PlanText" = "Plan";
+"NPayMain_PayLast" = "Pay";
+"TopUphasMoney_TOPon" = "需要支付%@元";
+"NPayMain_Month" = "1 month";
+"NPayMain_Year" = "1 year";
+"NPayHistoryOneTitle" = "All";
+"NPayHistoryTimeLong" = "PurchaseTime";
+"NPayHistoryDate" = "Validity";
+"NPayHistoryCount" = "Account";
+"NPayAlertViewprice_pay" = "PaymentAmount";
+"NPayChooseTitle" = "Buy upgrade";
+"NPayPlanTitle" = "Plan";
+"NPayServiceTitle" = "Service";
+"NPayNowPlanTitle" = "Current";
+"NPayNowServiceTitle" = "Current";
+"NPayAccountUpgrade" = "AccountUpgrade";
+"NPayDetailTitle" = "Detail";
+"NPayConfirmedOpening" = "Confirmed";
+"NPayConfirmedOpeningPText" = "After opening %@, the plan will be automatically deducted from the wallet. Once opened, the plan can be closed in the current plan.";
+"NPayConfirmedOpeningSText" = "After opening %@, the service will be automatically deducted from the wallet. Once opened, the service can be closed in the current service.";
+"NPayListRecommendTitle" = "Recommend";
+"NPayMineTimingPlanText" = "You are currently %@, support %@ participants, no Gym time limit";
+"NPayMineFreePlanText" = "You are currently %@, if you need more participants to join the Gym, and enjoy a smoother audio and video experience, please upgrade the plan";
+"NPayMinePaymentPlanText" = "Your current %@, support %@名 participants, and %ld days plan service expires, in order not to affect your use, please renew or upgrade as soon as possible";
+"NPayMineBtnLookText" = "View";
+"NPayMineBtnCloseText" = "Close";
+"NPayMineBtnUpdateText" = "Upgrade";
+"NPayNowSOpenDate" = "OpeningDate";
+"NPayNowSCountDown" = "CountDown";
+"NPayNowSPaymethod" = "Paymethod";
+"NPayAllNext_Title" = "Order overview";
+"NPayAllNext_manunit" = "man";
+"NPayAllNext_roomunit" = "aula";
+"NPayAllNext_hostunit" = "seat";
+"NPayAllNext_OfferTitle" = "Offer";
+"NPayAllNext_OrderTitle" = "OrderDetail";
+"NPayAllNext_HelpText" = "Note:After the purchase is successful,no refund or rebate can be given.If you have any questions,please call:400-080-5766";
+"NPayReservationOrderTitle" = "Reservation Order";
+"NPayResOrdPaymentTitle" = "Payment";
+"NPayResOrdDeliverTitle" = "Deliver";
+"NPayResOrdReceiptTitle" = "Receipt";
+"NPayResOrdCompleteTitle" = "Complete";
+
+// 钱包
+"TopUpwallet_centerTitle" = "Wallet Center";
+"TopUpwallet_nowCount" = "CurrentCount";
+"TopUpwithdraw_detailTitle" = "Bill";
+"TopUpwithdraw_noWechat" = "not support WeChat";
+
+// 营销客服  视频客服
+"SConfSMessEditConf" = "Seat";
+"SConfSMessMineConf" = "‘s Seat";
+"SConfSMessShareWEIPage" = "Share Page";
+"SConfSMessShareProduct" = "Share Product";
+"SConfSMessStartTheChar" = "Start";
+"SConfSMessMineID" = "Mine Seat ID";
+"SConfSMessMinePSW" = "Seat Password";
+"SConfSMessStartTheVideoSer" = "Start Service";
+"ClassBaoUpdateDetail" = "Please upgrade to the latest version";
+
+// 新营销客服
+"VideoMarketList_start" = "Enter";
+"VMListShare_wechatFriend" = "Send to a friend";
+"VMListShare_wechatCricle" = "Share to circle of friends";
+"VMListShare_message" = "Share via SMS";
+"VMListShare_pasteboard" = "Pasteboard";
+"VMCreate_chatName" = "AgentName";
+"VMCreate_chatpsw" = "AgentPassword";
+"VMCreate_LivingPSW" = "RoomPassword";
+"VMCreate_LivingWord" = "RoomAnnounce";
+"VMCreate_LivingPic" = "RoomBackground";
+
+"CompanyChose_title" = "Chose Company";
+"CompanyChose_enter" = "Enter Company";
+"CompanyChose_MineCompany" = "Mine Company";
+"CompanyChose_change_title" = "Change Company";
+
+"JSBLoginGetTheCode" = "Get Code";
+"NewLoginWithPassWord" = "PassWord login";
+"NewLoginWithCode" = "Code login";
+"NewMainLoginTitle" = "Welcome to the Vytalk";
+"AccoutLogin" = "Account password login";
+"UseAccoutLogin" = "Use account password login";
+"UseCodeLogin" = "Use code login";
+
+// 添加成员新的
+"AUListWechat" = "Invited by WeChat";
+"AUListQQ" = "Invited by QQ";
+"AUListMessage" = "Invited by Message";
+"AUListAdressBook" = "Add from AddressBook";
+"AUListPutin" = "Add by Input";
+
+// 会议模式
+"ConfModeTitle" = "Modes";
+"ConfModeMainVideo" = "host turn on the video";
+"ConfModeMainAudio" = "host turn on the audio";
+"ConfModeJoinVideo" = "participants turn on video";
+"ConfModeJoinAudio" = "participants turn on audio";
+// 新通讯录
+"ContactIvitedPeople" = "Invite People";
+"ContactCompanyTitle" = "Directories";
+"ContactConfRoomTitle" = "Conf Room";
+"ContactCompanyContactTitle" = "Corporate Contacts";
+"ContactInviteAddBottomTitle" = "Invite";
+// 分享会议邀请内容
+"ShareConfInviteOnePart" = "%@ Invite you to join%@\Gym Name：%@\nBegin：%@\nfrom：%@\n\nClick and join：\n %@ ";
+"ShareConfInviteOnePartWechat" = "Meeting Name：%@\nBegin：%@\nfrom：%@\n\nClick and join：\n %@ ";
+"ShareConfInviteTwoPart" = "Open or join a scheduled Gym.";
+"ShareConfInviteToWechat" = "Gym notice: Click to open or join a scheduled Gym.";
+"ShareContactInviteToWechatTitle" = "Invite you to join his business";
+"ShareContactInviteToWechatText" = "We are using Xingyi Technology's Umefit, the Gym is simple and more efficient.";
+"ShareVideoServceText" = "Invite friends, join the Gym training,\n and learn more about the multi-Gym mode.";
+"ShareTheDownLoadTitle" = "Share download link";
+"ShareTheScanTitle" = "Scan QR code";
+"ShareTheConnectServceTitle" = "Contact Service";
+
+"ConfModelFreeCamaraTitle" = "Free";
+"ConfModelFreeCamaraDetail" = "Participants are free to speak, discuss and video conversations";
+"ConfModelMainBroadcastTitle" = "Webcast";
+"ConfModelMainBroadcastDetail" = "The host controls and manages all video images in the form of broadcast.";
+"ConfModelMainCameraTitle" = "Internet";
+"ConfModelMainCameraDetail" = "The host can control and manage the video screen, and the participants always follow the host's video screen.";
+"ConfModelIntercomTitle" = "Walkie-talkie";
+"ConfModelIntercomDetail" = "Intelligent voice real-time 1 to 1, 1 to many intercom system";
+"ConfModelVoiceSeminarTitle" = "Voice call";
+"ConfModelVoiceSeminarDetail" = "All people use voice communication, and the host controls the video switch of all participants.";
+"ConfModelTrainingConferenceTitle" = "Online training";
+"ConfModelTrainingConferenceDetail" = "The system interface is automatically switched to the online training interface. The host can control and manage the video communication. The participants are always consistent with the host's perspective.";
+"ConfModelEHSfieldOperationTitle" = "EHS field work";
+"ConfModelEHSfieldOperationDetail" = "Managers can monitor and manage the site and operators through audio and video communication. The field operators are independent of each other and cannot be connected to audio and video.";
+// 新增提示语
+"UpdateTitleText" = "Your version is too low, please upgrade to the latest version";
+"UpdateTitleYES" = "upgrade";
+"UpdateTitleNO" = "Later";
+"ChangeCompanyErrorTitle" = "only one company currently, can't switch";
+"ChangeCompanyTitle" = "Company";
+"AllAlertTitleNetWork" = "The network is not connected";
+"AllNetWorkWIFITitle" = "Wifi";
+"AllNetWorkWLANTitle" = "WLAN, pay attention to the traffic costs";
+"AllNetWorkNONETitle" = "Network is not available, please check the network";
+"AllNetWorkUNKOWNTitle" = "Unknown network";
+"AddMemberChooseTheRole" = "Please select a role";
+
+// 会议设置
+"ConfSettingSharpnessTitle" = "Video clarity";
+"ConfSettingSharpnessSpeed" = "Speed";
+"ConfSettingSharpnessSmooth" = "Smooth";
+"ConfSettingSharpnessClear" = "Clear";
+"ConfSettingSharpnessHD" = "HD";
+"ConfSettingSharpnessBluelight" = "Bluelight";
+
+// 第三方登录
+"ThirdLoginContactPhoneTitle" = "Bind PhoneNumber";
+"ServceSettingSuccess" = "The setting is successful and will take effect after returning to the page.";
+"ThirdLoginOtherTitle" = "Other ways";
+"ThirdLoginCancleTitle" = "You canceled";
+"ThirdLoginFailTitle" = "Login failed";
+"ThirdLoginNoWechatTitle" = "Have not installed the WeChat";
+
+// SIMAddFromAdressViewController
+"AddFromAdressTitle" = "Choose employee";
+"AddFromIMAdressTitle" = "Invite contacts";
+"AddFromAdressAreadyChoose" = "chosen";
+// 新登录
+"NewLogChooseLanguage" = "Choose Language";
+"NewLogCountryTitle" = "country/region";
+// 会议文档
+"ConfDocAdd" = "Add";
+"ConfDocTitle" = "Gym Document";
+"ConfDocManagerTitle" = "Document";
+// app全局设置
+"AppAllSetLanguage" = "Use language";
+"AppAllSetLocalServerAlert" = "You have not set up the server yet";
+"AppAllSetLocalServerAlertDetail" = "Please click Set Local Server to set up your server.";
+"AppAllSetOverseaServer" = "Use Cloud Server";
+"AppAllSetOverseaServerDetail" = "Open Cloud Server to select the incoming country or region, and close the local server.";
+"AppAllSetServer" = "Set Local Server";
+"AppAllSetLocation" = "Default Region";
+// 消息新的IM
+"IMNewChatTitle" = "Message";
+"IMNewChatingTitle" = "connecting...";
+"IMNewNoChatTitle" = "Message (not connected)";
+"IMNewChatOtherOneTitle" = "Album";
+"IMNewChatOtherTwoTitle" = "Camera";
+"IMNewChatOtherThreeTitle" = "Video";
+"IMNewChatOtherFourTitle" = "File";
+"IMNewChatOtherFiveTitle" = "Location";
+"IMDateAM" = "\'AM\'";
+"IMDatePM" = "\'PM\'";
+"IMDateSun" = "\'Sunday\'";
+"IMDateMon" = "\'Monday\'";
+"IMDateTus" = "\'Tuesday\'";
+"IMDateWen" = "\'Wednesday\'";
+"IMDateThur" = "\'Thursday\'";
+"IMDateFri" = "\'Friday\'";
+"IMDateSat" = "\'Saturday\'";
+"IMConverseListPic" = "[Image]";
+"IMConverseListVio" = "[Voice]";
+"IMConverseListVid" = "[Video]";
+"IMConverseListEmo" = "[Emoji]";
+"IMConverseListDoc" = "[File]";
+"IMConverseListLoc" = "[Location]";
+"IMConverseListCao" = "[Draft]";
+"IMChatVoiceBtnPut" = "Hold and talk";
+"IMChatVoiceBtnOff" = "Release end";
+"IMChatVoiceBtnCancel" = "Pull up cancel";
+"IMChatGesUP" = "Slip on your finger, cancel sending";
+"IMChatGesRelease" = "Release your finger and cancel sending";
+"IMChatGesTooShort" = "Talking time is too short";
+"IMChatGesTooLong" = "Talking too long";
+
+"CloudSpaceTitle" = "CloudSpace";
+"CloudSpaceDocTitle" = "Documents";
+"CloudSpaceMinutesTitle" = "Minutes";
+"CloudSpaceTranslateTitle" = "Translation";
+"CloudSpaceVideoTitle" = "Recording";
+"CloudSpaceBookTitle" = "RoomBook";
+"ConfModesLiveTitle" = "Live";
+"ConfModesIntercomTitle" = "Intercom";
+"ConfModesOptionsTitle" = "Optional";
+"ConfModesOptionsExplainContent" = "Rich Gym mode (free discussion Gym, webcast Gym, webinar, etc.), suitable for a variety of application scenarios, to achieve efficient communication and collaboration, and save communication costs.";
+
+"MainPageBottomTitle" = "Special Note: If you need to use a computer, please go to the Gym website \n to download PC client software";
+"MainPageBottomButtonOne" = "Invitation";
+"MainPageBottomButtonTwo" = "Plan";
+"WellBeingTitle" = "Member benefits";
+"WellBeingBottomTitle" = "Open plan";
+"WellBeingButtonTitle" = "View >";
+
+"MainPageTeachModeTitle" = "Teaching";
+"MainPageTelemedicineTitle" = "Medical";
+"MainPageOnlineMedicalTitle" = "Online";
+"MainPageFieldOperationTitle" = "Field";
+"TeachModeLanguageTitle" = "Language";
+"TeachModeMathTitle" = "Math";
+"TeachModeEnglishTitle" = "English";
+"TeachModePianoTitle" = "Piano";
+"TeachModePhysicalTitle" = "Physical";
+"TeachModeChemistryTitle" = "Chemistry";
+
+"SInviteFriends" = "Invite Friends";
+"SLearningCentre" = "Learning centre";
+"VideoMainPageTitle" = "VideoHome";
+"VMP_Interactive" = "Interactive";
+"ShareFromAdressBookTitle" = "Invite to use";
+"SConfDocumentCloud" = "Cloud";
+"MineRedEnvelopeTitle" = "Redenvelope";
+"MineBalanceTitle" = "Balance";
+"MineRedEnvelopeGetTitle" = "Go get";
+"MineBalanceGetTitle" = "To recharge";
+
+"MMessEditConf_class" = "Class";
+"MMessSupportID_class" = "RoomID";
+"MMessTimeLength_class" = "Duration";
+"MMessTimeExplain_class" = "Explanation";
+"MMessTimeStart_class" = "Start";
+"ShareConfInviteOnePart_class" = "%@ You are invited to join the%@\n subject：%@\n start time：%@\nfrom：%@\n\n click the link to join the course directly ：\n %@ ";
+"ShareConfInviteOnePart_classWechat" = "subject：%@\n start time：%@\nfrom：%@\n\n click the link to join the course directly ：\n %@ ";
+"MArrangeConfIS_class" = "'s class";
+"MArrangePSW_class" = "password";
+"ConfModeTitle_class" = "model";
+"ConfDocTitle_class" = "document";
+
+"SettingLogOutCellTitle" = "Logout";
+"SettingLogOutCellDetail" = "Can't restore";
+"SettingLogOutCellContent" = "After the account is cancelled, the relevant identity information, related rights, transaction records, etc. will be cleared and cannot be retrieved. Are you sure to cancel the account?";
+"KHBPrivateAgreementTitle" = "By joining the meeting, you have agreed to%@and%@";
+
+"MainPageMoreLanguageTitle" = "国际会议";
+"ServiceCenterTitle" = "服务中心";
+"ServiceCenterDetailTitle" = "产品服务";

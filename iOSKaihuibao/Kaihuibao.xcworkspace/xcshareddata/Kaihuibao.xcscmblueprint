@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "358aca06-469d-4cfc-891e-ae6c589b0327++5576",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "acf52b79-eaa9-bf47-b9ec-d323394e2a4d++505" : {
+
+    },
+    "358aca06-469d-4cfc-891e-ae6c589b0327++5576" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BEA3F5D0C9AFB07628C77B0280692AD225300AEC" : 9223372036854775807,
+    "acf52b79-eaa9-bf47-b9ec-d323394e2a4d++505" : 9223372036854775807,
+    "358aca06-469d-4cfc-891e-ae6c589b0327++5576" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "85434311-5255-4A2E-98CD-1673AA51FD12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BEA3F5D0C9AFB07628C77B0280692AD225300AEC" : "KaihuibaoNew%203\/",
+    "acf52b79-eaa9-bf47-b9ec-d323394e2a4d++505" : "khb_trunk\/",
+    "358aca06-469d-4cfc-891e-ae6c589b0327++5576" : "iosapp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kaihuibao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kaihuibao.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.4.77\/xview",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "358aca06-469d-4cfc-891e-ae6c589b0327++5576"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/spy109\/Kaihuibao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEA3F5D0C9AFB07628C77B0280692AD225300AEC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.4.77\/khb",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "acf52b79-eaa9-bf47-b9ec-d323394e2a4d++505"
+    }
+  ]
+}

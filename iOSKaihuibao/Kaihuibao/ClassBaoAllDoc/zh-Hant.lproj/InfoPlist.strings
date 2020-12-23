@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Kaihuibao
+
+  Created by mac126 on 2018/5/15.
+  Copyright © 2018年 Ferris. All rights reserved.
+*/
+
+// 工程名字国际化
+CFBundleDisplayName = "上课宝";

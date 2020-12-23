@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>共享文档</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./css/doc.css?V=123">
+    <link rel="stylesheet" href="./css/doc-list.css">
+    <script src="./js/pdf.min.js"></script>
+    <script>
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    </script>
+</head>
+<body tabindex="1" class="loadingInProgress">
+    <div class="toolset hide" id="toolset">
+        <!-- <span class='toolLabel'>Actions:</span> -->
+        <a href="javascript:void(0);" class='tool' id="tools-icon"></a>
+        <a href="javascript:void(0);" class='tool active' id="tool-pencil"></a>
+        <a href="javascript:void(0);" class='tool' id="tool-text"></a>
+        <span class='tool' id='tool-color'>
+            <div class="set-wid">
+                <div class='color-poupe'>
+                    <!-- <i class='color-000000' color='#000000'></i> -->
+                    <i class='color-0000FF' color='#0000FF'></i>
+                    <i class='color-00ff00' color='#00ff00'></i>
+                    <i class='color-0a70e3' color='#0a70e3'></i>
+                    <i class='color-0ae3e0' color='#0ae3e0'></i>
+                    <!-- <i class='color-959595' color='#959595'></i> -->
+                    <i class='color-a30ae3' color='#a30ae3'></i>
+                    <i class='color-ff1a1a' color='#ff1a1a'></i>
+                    <i class='color-ff6600' color='#ff6600'></i>
+                    <i class='color-ed5e54' color='#ed5e54'></i>
+                    <i class='color-ed008d' color='#ed008d'></i>
+                    <i class='color-ffd800' color='#ffd800'></i>
+                </div>
+                <span class='setWidth' id='setWidth'>
+                    <span class="sizeTool-1" id="sizeTool-1"></span>
+                    <span class="sizeTool-2" id="sizeTool-2"></span>
+                    <span class="sizeTool-3" id="sizeTool-3"></span>
+                    <span class="sizeTool-4" id="sizeTool-4"></span>
+                    <span class="sizeTool-5" id="sizeTool-5"></span>
+                </span>
+            </div>
+        </span>
+        <a href="javascript:void(0);" class='tool' id="tool-select"></a>
+        <a href="javascript:void(0);" class='tool' id="tool-eraser"></a>
+        <a href="javascript:void(0);" class='tool' id="Cancel"></a>
+        <a href="javascript:void(0);" class='tool' id="Add"></a>
+        <a href="javascript:void(0);" class='tool' id="clear-lc"></a>
+    </div>
+
+    <div class="fs-container doc">
+        <div class="share-box">
+            <div class="literally" id="literally">
+            </div>
+            <div class="no-draw"></div>
+            <div class="pdf-box">
+                <canvas id="pdf-canvas" style="border:1px solid black"></canvas>
+            </div>
+        </div>
+        <div class="pdf-tool wid100">
+            <!--                    onClick="chooseFile()" -->
+            <button id='chooseFile'
+                class='button'></button>
+            <div class="all-tools">
+                <button id="prev" onclick="goPrevious()" class="button peer-hidden"></button>
+                <span class="page-box">
+                    <span id="page_prve">
+                        <input type="search" id="page_num" class="page-num" autocomplete="off" />
+                    </span>
+                    <b class="slant">/</b>
+                    <span id="page_count"></span>
+                </span>
+                <button id="next" onclick="goNext()" class="button peer-hidden"></button>
+                <button id="zoomin" onclick="zoomin()" class="button"></button>
+                <button id="zoomout" onclick="zoomout()" class="button"></button>
+                <span id="scaleSelectContainer" class="dropdownToolbarButton ">
+                    <a href="#topPopover" class="mui-navigate-right">适应页面</a>
+                    <!-- <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="zoom">
+                        <option id="pageActualOption" title="" value="page-actual">实际大小
+                        </option>
+                        <option id="pageFitOption" title="" value="page-fit">适应页面</option>
+                        <option id="pageWidthOption" title="" value="page-width">适应宽度
+                        </option>
+                        <option id="pageHeightOption" title="" value="page-height">适应高度
+                        </option>
+                        <option title="" value="0.5">50%
+                        </option>
+                        <option title="" value="0.75">75%
+                        </option>
+                        <option title="" value="1">100%
+                        </option>
+                        <option title="" value="1.25">
+                            125%</option>
+                        <option title="" value="1.5">
+                            150%</option>
+                        <option title="" value="2">200%
+                        </option>
+                        <option title="" value="3">300%
+                        </option>
+                        <option title="" value="4">400%
+                        </option>
+                    </select> -->
+                </span>
+                <button id="end-share" onclick="endWebview()" class="button hide">结束</button>
+            </div>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </div>
+
+
+        <!-- 文档列表 -->
+        <div id="fileList">
+            <header id="header" class="mui-bar mui-bar-nav">
+                <h1 class="mui-title"></h1>
+                <button id="nav-cancel" class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left"></button>
+<!--                <a id="addUpload" class="mui-icon mui-icon-plusempty mui-pull-right" href="#topUploadPop"></a>-->
+            </header>
+<!--            <header class="mui-bar mui-bar-nav">-->
+<!--                <h1 class="mui-title">文档列表</h1>-->
+<!--            </header>-->
+            <div class="mui-content">
+                <div class="tab-control">
+                    <a class="tab-item active" data-type="local"></a>
+                    <a class="tab-item" data-type="could"></a>
+                </div>
+                <ul class="mui-table-view mui-table-view-chevron" id="fileShow">
+                    <!-- <li class="mui-table-view-cell mui-media">
+                        <div class="mui-slider-right mui-disabled">
+                            <a class="mui-btn mui-btn-red">删除</a>
+                        </div>
+                        <a class="mui-slider-handle mui-navigate-right mui-checkbox">
+                            <label>
+                                <input name="checkbox1" type="checkbox" id="radio1">
+                                <img class="mui-media-object mui-pull-left" src="./doc/cbd.jpg">
+                                <div class="mui-media-body">
+                                    <span>1.</span>CBD
+                                    <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                                </div>
+                            </label>
+                        </a>
+                    </li> -->
+                </ul>
+                <div class="no-file">
+                    <p>末安排会议文档，可进行共享本地文档和云端文档哦 ~ </p>
+                    <p>图片支持 jpg, jpeg, webp, png, gif, bmp, svg 格式</p>
+                    <p>文档支持 txt, doc, docx, pdf, xls, xlsx, ppt, pptx 格式</p>
+                    <p>上传文件大小不能超过100M。</p>
+                </div>
+            </div>
+            <div class="btn-bottom">
+           <!--     <span class="file-btn" id="addCloud">
+                    <input type="button" value="添加云端文档">
+                </span>
+                <span class="file-btn addLocal" id="addLocal">
+                    <input type="button" value="添加本地文档">
+&lt;!&ndash;                    <input type="file" name="file" id="addInput" accept='image/gif,image/png,image/jpeg,image/jpg,image/bmp,image/svg,.doc,.docx,.txt,.pdf,.xls,.xlsx,.ppt,.pptx' />&ndash;&gt;
+                    <input type="file" name="file" id="addInput" />
+                </span>-->
+                <div class="" id="handleBtns">
+                    <span class="file-btn" id="shareBtn">
+                        <input type="button" value="共享">
+                    </span>
+                <!--    <span class="file-btn" id="deleteBtn">
+                        <input type="button" value="删除">
+                    </span>-->
+                </div>
+            </div>
+        </div>
+
+        <!--单页面结束-->
+        <div id="cloudBox" class="mui-page hide">
+            <div class="mui-navbar-inner mui-bar mui-bar-nav">
+                <button type="button" id="backlist" class="mui-left mui-btn  mui-btn-link mui-btn-nav">
+                    <span class="mui-icon mui-icon-left-nav"></span>
+                </button>
+                <h1 class="mui-center mui-title">云端文档</h1>
+                <div class="mui-input-row mui-search">
+                    <input type="search" class="mui-input-clear" id="searchBtn" />
+                </div>
+            </div>
+            <div class="mui-page-content">
+                <div class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <ul class="mui-table-view" id="cloudFileList">
+                            <!-- <li class="mui-table-view-cell">
+                                <a class="mui-input-row mui-checkbox mui-left">
+                                    <label>
+                                        QQ号
+                                        <input name="checkbox" value="Item 2" type="checkbox" checked="">
+                                        <span class="mui-pull-right">88888888</span>
+                                    </label>
+                                </a>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-btns">
+                <button id="chooseCloudFile" type="button"
+                    class="mui-btn mui-btn-primary mui-btn-block mui-btn-outlined">添加</button>
+            </div>
+        </div>
+    </div>
+    <div id="topUploadPop" class="mui-popover">
+        <div class="mui-popover-arrow"></div>
+        <div class="mui-scroll-wrapper" data-scroll="1">
+            <div class="mui-scroll">
+                <ul class="mui-table-view" id="add-btns">
+                    <li class="mui-table-view-cell">
+                        <input type="file" name="file" id="addLocalInput" accept='image/gif,image/png,image/jpeg,image/jpg,image/bmp,image/svg,.doc,.docx,.txt,.pdf,.xls,.xlsx,.ppt,.pptx' />
+                        <a id="shareLocal"></a>
+                    </li>
+                    <li class="mui-table-view-cell">
+                        <input type="file" name="file" id="addCouldInput" accept='image/gif,image/png,image/jpeg,image/jpg,image/bmp,image/svg,.doc,.docx,.txt,.pdf,.xls,.xlsx,.ppt,.pptx'/>
+                        <a id="shareCould"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--设置scale弹出菜单-->
+    <div id="topPopover" class="mui-popover">
+        <div class="mui-popover-arrow"></div>
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view" id='scaleList'>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-actual" id="pageActual">实际大小</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-fit" id="pageFit">适应页面</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-width" id="pageWidth">适应宽度</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="page-height" id="pageHeight">适应高度</a></li>
+                    <!-- <li class="mui-table-view-cell"><a href="javascript:void(0);" value="0.5">50%</a></li> -->
+                    <!-- <li class="mui-table-view-cell"><a href="javascript:void(0);" value="0.75">75%</a></li> -->
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="1" id="pageScale1">100%</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="1.25" id="pageScale125">125%</a></li>
+                    <li class="mui-table-view-cell"><a href="javascript:void(0);" value="1.5" id="pageScale150">150%</a></li>
+                    <!-- <li class="mui-table-view-cell"><a href="javascript:void(0);" value="2">200%</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/vconsole.js"></script>
+    <script src="./js/fastclick.js"></script>
+    <script src="./js/jquery-1.8.2.min.js"></script>
+    <script src="./js/mui.js"></script>
+    <script src="./js/language.js"></script>
+    <script src="./js/literallycanvas-core.js"></script>
+    <script src="./js/index.js?v=23534"></script>
+    <script>
+        $(function () {
+            // url = getUrlParam('file') || 'https://www.p-y.xyz/car.pdf';
+        });
+    </script>
+    <script src="./js/document.js"></script>
+    <script src="./js/doc-core.js"></script>
+<!--    <script src="./test/cinlanClientSDK.js"></script>-->
+<!--    <script src="./test/sdkIndex.js"></script>-->
+    <script>
+        $(function () {
+            // vConsole = new VConsole() // 初始化
+
+            isDoc = true;
+
+            // getFileHistory()
+
+            // var w=0;
+            // var timer= setInterval(function () {
+
+            //     if (w == $('#viewer .page').width()){
+            //         clearInterval(timer);
+            //         let viewHeight = $('#outerContainer').height();
+            //         let viewWidth = $('#outerContainer').width();
+
+            //         console.log('viewHeight', viewHeight)
+            //         onresize(viewWidth, viewHeight);
+            //     }
+            //     else{
+            //         w = $('#viewer .page').width()
+            //     }
+            // },100);
+        });
+    </script>
+</body>
+
+</html>

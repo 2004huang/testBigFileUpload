@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  Kaihuibao
+
+  Created by mac126 on 2018/5/15.
+  Copyright © 2018年 Ferris. All rights reserved.
+*/
+
+// 工程名字国际化
+CFBundleDisplayName = "开会宝云会议";
+
+//// 系统权限国际化
+//NSCameraUsageDescription = "我们需要打开你的相机权限，用来视频会议过程中你能看到自己的视频和他人的视频，保证视频通话的正常进行，如果同意选择“好”。";
+//NSContactsUsageDescription = "需要您的同意才能访问通讯录。如果不同意将无法推荐通讯录中的朋友给你。仅用特征码匹配,不会保存你的通讯录内容。";
+//NSLocationWhenInUseUsageDescription = "我们需要打开你的使用你的使用程序期间的定位权限，用来定位你当前位置，方便使用和查看，如果同意选择“好”。";
+//NSMicrophoneUsageDescription = "我们需要打开你的麦克风权限，用来视频会议过程中采集你的通话给对方，保证视频通话的对方能够听到你的声音，如果同意选择“好”。";
+//NSPhotoLibraryAddUsageDescription = "我们需要打开你的使用照片相册的权限，用来更换头像时候你可以选择自己相册里的图片，如果同意选择“好”。";
+//NSPhotoLibraryUsageDescription = "我们需要打开你的使用照片相册的权限，用来更换头像时候你可以选择自己相册里的图片，如果同意选择“好”。";

@@ -1,0 +1,240 @@
+//  Localizable.strings
+//  CinLanMedia
+//
+//  Created by 刘金丰 on 2018/9/7.
+//  Copyright © 2018年 Cilan. All rights reserved.
+
+
+// Character
+
+"CL_Me"									= "Me";
+"CL_YES"                              	= "YES";
+"CL_NO"									= "NO";
+"CL_ON"									= "ON";
+"CL_OFF"								= "OFF";
+
+
+// Word
+
+"CL_Sure"								= "Sure";           // 确定
+"CL_Cancel"								= "Cancel";         // 取消
+"CL_Open"								= "Open";           // 打开
+"CL_Close"								= "Close";          // 关闭
+"CL_Start"								= "Start";          // 开始
+"CL_Stop"								= "Stop";           // 停止
+"CL_End"								= "End";            // 结束
+"CL_Remove"								= "Remove";         // 移除
+"CL_Loosen"								= "Loosen";         // 松开
+"CL_Press"								= "Press";          // 按住
+"CL_Hint"								= "Hint";           // 提示
+"CL_More"								= "More";           // 更多
+"CL_Success"							= "Success";        // 成功
+"CL_Complete"							= "Complete";       // 完成
+"CL_Share"								= "Share";          // 共享
+"CL_Mute"								= "Mute";           // 静音
+"CL_Video"								= "Video";          // 视频
+"CL_Audio"								= "Audio";          // 音频
+"CL_Screen"								= "Screen";         // 屏幕
+"CL_Picture"							= "Picture";        // 照片
+"CL_Whiteboard"							= "WhiteBoard";     // 白板
+"CL_Webpage"							= "WebPage";        // 网页
+"CL_Document"							= "Document";       // 文档
+"CL_SMS"								= "SMS";            // 短信
+"CL_WeChat"								= "WeChat";         // 微信
+"CL_Friends"							= "Friend";         // 好友
+"CL_All"								= "All";            // 全体
+"CL_Chat"								= "Chat";           // 聊天
+"CL_Caption"							= "Caption";        // 字幕
+"CL_Setting"							= "Setting";        // 设置
+"CL_Apply"								= "Apply";          // 申请
+"CL_Speak"								= "Speak";          // 发言
+"CL_Talk"								= "Talk";           // 讲话
+"CL_Send"								= "Send";           // 发送
+"CL_Invite"								= "Invite";         // 邀请
+"CL_Copy"								= "coCopypy";       // 复制
+"CL_Paste"								= "Paste";          // 粘贴
+"CL_Watch"								= "Watch";          // 观看
+"CL_Listen"								= "Listen";         // 收听
+"CL_Broadcast"							= "Broadcast";      // 广播
+"CL_Leave"								= "Leave";          // 离开
+"CL_Set"								= "Set";            // 设为
+"CL_Recover"							= "Recover";        // 收回
+"CL_Relieve"							= "Relieve";        // 解除
+"CL_Keep"								= "Keep";           // 保持
+"CL_Speed"								= "Speed";          // 极速
+"CL_Fluency"							= "Fluency";        // 流畅
+"CL_Distinct"							= "Distinct";       // 清晰
+"CL_HighDefinition"						= "HighDefinition"; // 高清
+"CL_BlueLight"							= "BlueLight";      // 蓝光
+"CL_OriginalSound"						= "OriginalSound";  // 原声
+"CL_PassBack"							= "PassBack";       // 回传
+"CL_Receiver"							= "Receiver";       // 听筒
+"CL_Translation"						= "Translation";    // 翻译
+"CL_Conference"							= "Conference";     // 会议
+"CL_Password"							= "Password";       // 密码
+"CL_Again"								= "Again";          // 再次
+"CL_Rresult"							= "Rresult";        // 结果
+"CL_Audit"								= "Audit";          // 审核
+"CL_RaiseHand"                          = "RaiseHand";      // 举手
+"CL_Focus"                              = "Focus";          // 焦点
+"CL_PutHand"                            = "PutHand";        // 放下手
+"CL_Auditing"							= "Auditing";       // 审核中
+"CL_Speaker"							= "Speaker";        // 扬声器
+"CL_MachineSound"						= "MachineSoundAI"; // AI智能声音
+"CL_Microphone"							= "Microphone";     // 麦克风
+"CL_Camera"								= "Camera";         // 摄像头
+"CL_Creator"							= "Creator";        // 创建者
+"CL_Host"								= "Host";           // 主持人
+"CL_Participator"						= "Participator";   // 参与者
+"CL_Linkman"							= "Linkman";        // 联系人
+"CL_Speaking"							= "Speaking";       // 正在讲话
+"CL_CoHost"								= "Co-host";        // 联席主持人
+"CL_InterpreterSound"                   = "InterpreterSound"; // 译员声音
+"CL_Yesterday"                          = "Yesterday";      // 昨天
+"CL_Mirror"                             = "Mirror";         // 镜像
+"CL_Disconnect"                         = "Disconnect";     // 断开
+
+// Language
+
+"CL_SimplifiedChinese"                	= "SimplifiedChinese";      // 简体中文
+"CL_English"                          	= "English";                // 英语
+"CL_Korean"                           	= "Korean";                 // 韩语
+"CL_Japanese"                         	= "Japanese";               // 日语
+"CL_ArabicLanguage"                   	= "ArabicLanguage";         // 阿拉伯语
+"CL_Russian"                          	= "Russian";                // 俄语
+"CL_French"                           	= "French";                 // 法语
+"CL_German"								= "German";                 // 德语
+
+
+
+// Sentence
+
+"CL_RecentlyUsed"						= "Recently used";                                  // 最近已使用
+"CL_AllLanguage"						= "All language";                                   // 所有语言
+"CL_DisplayAtTop"						= "At the top of the display";                      // 顶部显示
+"CL_DisplayAtBottom"					= "At the bottom of the display";                   // 底部显示
+"CL_DisplayAtFullScreen"				= "Full screen";                                    // 全屏显示
+"CL_ShorthandSetting"					= "Shorthand set";                                  // 速记设置
+"CL_TranslationSetting"					= "Translation is set";                             // 翻译设置
+"CL_VideoResolution"					= "Video resolution";                               // 视频清晰度
+"CL_RoomLock"							= "The meeting to lock";                            // 会议锁定
+"CL_ShareLock"                          = "Allow all participants to share";                // 允许全体参会者共享
+"CL_ShareOverwriteLock"                 = "Sharing allows others to share at the same time";// 共享时允许其他人同时共享
+"CL_SetSoundSource"						= "Set the sound source";                           // 设置声源
+"CL_SelectOriginLanguage"				= "Select the source language";                     // 选择源语言
+"CL_SelectTargetLanguage"				= "Select the target language";                     // 选择目标语言
+"CL_ModifyVideoResolution"				= "Modify video resolution";                        // 修改视频清晰度
+"CL_RelieveAllMute"						= "Relieve all mute";                               // 解除全体静音
+"CL_WhetherToLeavingTheMeeting"			= "Whether to leave the meeting?";                  // 是否离开会议?";
+"CL_WhetherToRelieveAllMute"			= "Whether to relieve all mute";                    // 是否确认解除全体静音?";
+"CL_WhetherToSaveShorthandContent"		= "Whether to save shorthand content";              // 是否保存速记内容";
+"CL_WhetherToSaveTranslationContent"	= "Whether to save translation records";            // 是否保存翻译记录";
+"CL_WhetherToDisplayCaption"			= "Whether to display caption";                     // 字幕显示
+"CL_CaptionDisplayMode"					= "Caption display mode";                           // 字幕显示方式
+"CL_CaptionFontSize"					= "Caption font size";                              // 选择字体大小
+"CL_ShareScreenTitle"					= "You are sharing screens";                        // 您正在共享屏幕
+"CL_NoHaveAccess"						= "You do not have permission to perform this operation";   // 您没有权限执行该操作";
+
+"CL_CannotDisableMute"					= "The host has silenced the entire audience. You cannot unmute yourself";   // 主持人已将全体静音, 您无法自我解除静音
+
+"CL_HostLockShare"						= "The moderator locks the participant's share permissions";      // 主持人锁定了参与人共享权限";
+
+"CL_CannotOverwriteShare"				= "You will not be able to share while others are sharing"; // 他人正在共享, 此时您将无法进行共享";
+
+"CL_SharedOverwriteHints"				= "This will stop others from sharing, do you want to continue?";   // 这将停止别人的共享, 是否继续?";
+
+
+"CL_YourMicrophoneIsOff"				= "Your microphone is off";                 // 您的麦克风已关闭";
+"CL_YourMicrophoneIsOn"					= "Your microphone is on";                  // 您的麦克风已打开";
+"CL_TheOhtersAreTalking"				= "The others are talking";                 // 其他人正在讲话";
+"CL_YourVideoHasBeenStoped"				= "Your video has been stopped";             // 您的视频已被停止";
+"CL_YouHaveBecomeTheHost"				= "You have become the host";                // 您已成为主持人";
+"CL_YouHaveBecomeTheCoHost"				= "You have become the co-host";            // 您已成为联席主持人";
+"CL_JoinedTheMeeting"					= "joined the conference room";             // 加入了会议室";
+"CL_YouStopedScreenShare"				= "You stopped screen sharing";             // 您停止了屏幕共享";
+"CL_YourScreenShareHasBeenClosed"		= "Your screen share is turned off";        // 您的屏幕共享被关闭";
+"CL_PasswordNotEmpty"					= "The password cannot be empty";           // 密码不能为空";
+"CL_PleaseEnterURL"						= "Please enter the website";               // 请输入网址";
+"CL_URLNotEmpty"						= "The url cannot be empty";                // 网址不能为空";
+"CL_PleaseEnterCorrectURL"				= "Please enter the correct url";           // 请输入正确的网址";
+"CL_AllowUserRelieveMute"				= "Allow participants to unmute";           // 允许参与者解除静音";
+"CL_AllUserWillBeMuted"					= "All participants will be silenced";      // 所有参与者将被静音";
+
+
+"CL_UseHDVideo"                         = "Start hd video";                         // 启动高清视频";
+"CL_UseH265Video"                       = "Launch h.265 hd video";                  // 启动H.265高清视频";
+"CL_VideoFitType"                       = "Start populating the display video";     // 启动填充显示视频";
+"CL_UseMirrorVideo"                     = "Launch the mirror video";                // 启动镜像视频
+
+"CL_MulComAndShorthand"                 = "Multilingual communication and shorthand";       // 多语同传及速记
+"CL_ChineseConfShorthand"               = "Chinese conference shorthand";                   // 中文会议速记
+"CL_RecongAndTranslation"               = "Recognition and translation";                    // 识别翻译
+"CL_AddMeetingDoc"                      = "Add meeting documents";                          // 添加会议文件
+"CL_AddFileToCloudDisk"                 = "Add the file to cloud disk";                     // 添加文件到云盘
+"CL_ChooseYorLanguage"                  = "Choose your language";                           // 选择你的语言
+"CL_DisplaysYourLanguageText"           = "Displays your language text";                    // 显示你的語言文本
+"CL_DisplaysUserTranText"               = "Display the participant translation text";       // 显示参与者翻译文本
+"CL_DisplaysUserOriginText"             = "Displays the participant's original text";       // 显示参与者原始文本
+"CL_CaptionSetting"                     = "Caption setting";                                // 字幕设置
+"CL_ChooseTranLanguage"                 = "Choice of translation language";                 // 选择你要翻译的语言
+"CL_DisplayLanguageText"                = "Display language text";                          // 显示语言文本
+"CL_DisplayTranslatedText"              = "Display translated text";                        // 显示翻译文本
+"CL_WhetherToEndLocalTranslation"       = "Whether to end the local translation";           //是否确认结束本地翻译
+"CL_WhetherToEndChineseShorthand"       = "Whether to end the Chinese shorthand";           // 是否确认结束中文速记
+"CL_WhetherToEndMulCommunication"       = "Whether to end the multilingual communication";  // 是否确认结束多语同传
+
+
+"CL_CameraOff"                          = "Camera off";                                 // 摄像头已关闭
+"CL_YouStopedWatchingVideo"             = "You stopped watching this video";            // 您停止观看了此路视频
+"CL_HostOffMLST"                        = "The host has turned off multilingual simultaneous transmission"; // 主持人已关闭多语同传
+"CL_HostOffCS"                          = "The host has shut down Chinese shorthand";   // 主持人已关闭中文速记
+"CL_TempTurnOffCamera"                  = "Temporarily turn off the camera";            // 临时关闭摄像头
+"CL_ReturnDesktopAndStartSharing"       = "Please return to the mobile desktop and start sharing";    // 请返回到手机桌面，开始共享
+"CL_ConfServerReconnectionFailed"       = "Conference server reconnection failed";      // 会议服务器重连失败
+"CL_VoiceJoinViaDevice"                 = "Voice join via device";                      // 通过设备音频加入
+"CL_ConnectAudioAlertTitle"             = "Please join the audio in order to hear others' voices";  // 为了听到让人声音请加入音频
+
+
+
+
+
+
+"CL_LockRoomDirection"                  = "Participants are not allowed to join";       // 不允许参会者加入";
+
+"CL_ShareLockDirection"                 = "After closing, only the host can share";     // 关闭后, 只有主持人可以共享";
+
+"CL_ShareOverwriteLockDirection"        = "After closing, only the host can share while others share";      // 关闭后, 只有主持人可以在其他人共享同时共享";
+
+"CL_LockRoomTips"						= "Are you sure to lock the room? No one will be able to enter after the lock (except the creator).是";      // 否确定锁定房间, 锁定后将不再有人能够进入(创建者除外)";
+
+"CL_ScreenSharingTips"					= "Screen sharing is only available in iOS12.0 + systems! Please upgrade your device system! =>\n Set -> general -> software update";       // 屏幕共享功能只支持在iOS12.0以上的系统上使用! 请升级您的设备系统!=>\n 设置->通用->软件更新";
+
+"CL_MuteModeSpeakTips"					= "Currently in gag mode, cannot open microphone to speak";     // 当前为禁言模式, 不能打开麦克风发言";
+
+"CL_TheHostMuteAllUsersTips"			= "The moderator has silenced all the participants";        // 主持人已将所有参与者静音"
+
+"CL_TheHostRequestOpenYourMic"			= "The host wants you to turn on your microphone";      // 主持人想让你开启您的麦克风"
+
+"CL_ConfServerConnectionErrorTips"		= "Conference server connection error会";        // 议服务器连接错误"
+
+"CL_TheHostEndedTheMeetingTips"			= "The host ended the meeting!";                // 主持人结束了本场会议!
+
+
+
+
+
+"CL_SharedStateNotSwitchVideo"          = "In the Shared state, video cannot be switched";  // 共享状态下, 不能切换视频
+
+"CL_ChatTextFieldPlaceholder"           = "Click enter chat content...";                    // 点击输入聊天内容...
+
+"CL_LocalTranStateOpenMLST"             = "The host has opened multi-language simultaneous transmission, the local translation function you opened has been automatically closed, please make the corresponding Settings and join!";        // 主持人已开启多语同传, 您开启的本地翻译功能已自动关闭, 请进行相应设置并加入!
+
+"CL_OpenMLSTAndSet"                     = "The host has started multi-language simultaneous transmission, please set the corresponding Settings and join!";         // 主持人已开启多语同传, 请进行相应设置并加入!
+
+
+"CL_LocalTranStateOpenCS"              = "The host has opened the Chinese shorthand, the local translation function you opened has been automatically closed, please make the corresponding Settings and join!";        // 主持人已开启中文速记, 您开启的本地翻译功能已自动关闭, 请进行相应设置并加入!
+
+"CL_OpenCSAndSet"                     = "The host has opened the Chinese shorthand, please make the corresponding setting and join!";         // 主持人已开启中文速记, 请进行相应设置并加入!
+
+"CL_AISoundNotListenUserAudio"        = "You cannot listen to user audio while using AI smart voice";    // 使用AI智能声音时不能收听用户音频
+
